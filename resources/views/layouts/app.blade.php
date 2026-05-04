@@ -20,7 +20,6 @@
     <meta name="twitter:description" content="@yield('twitter_description', trim($__env->yieldContent('meta_description')) ?: 'Berkemah Team membangun Mahya HRIS dan Mahya HSE, platform SaaS untuk merapikan operasional HR dan keselamatan kerja perusahaan.')">
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="google-site-verification" content="JkVGsGLT3J_9j22pO8DRtf_V-JCCbJctrbmJsjbRPnU">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
