@@ -7,7 +7,7 @@
     <meta name="description" content="@yield('meta_description', 'Berkemah Team membangun Mahya HRIS dan Mahya HSE, platform SaaS untuk merapikan operasional HR dan keselamatan kerja perusahaan.')">
     <meta name="keywords" content="@yield('meta_keywords', 'Berkemah Team, Mahya HRIS, Mahya HSE, SaaS HRIS Indonesia, software HSE, startup Bandung')">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <link rel="canonical" href="https://berkemah.com/">
+    <link rel="canonical" href="{{ rtrim(config('app.url', 'https://berkemah.com'), '/') . '/' }}">
 
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Berkemah Team">
