@@ -4,10 +4,10 @@
             <div class="flex items-center">
                 <div class="shrink-0">
                     <a href="/" class="brand-lockup" aria-label="Berkemah Team">
-                        <span class="brand-logo" aria-hidden="true">
+                        <span class="brand-logo shrink-0" aria-hidden="true">
                             <img src="{{ asset('assets/foto-berkemah.png') }}" alt="" class="h-full w-full rounded-[inherit] object-cover">
                         </span>
-                        <span class="text-2xl font-extrabold uppercase tracking-[0.12em] text-black">
+                        <span class="text-base min-[380px]:text-lg sm:text-2xl font-extrabold uppercase tracking-[0.08em] sm:tracking-[0.12em] text-black leading-none">
                             BERKEMAH TEAM
                         </span>
                     </a>
@@ -30,7 +30,7 @@
             </div>
 
             <div class="md:hidden">
-                <button id="mobile-menu-button" class="text-gray-700 hover:text-slate-900 focus:outline-none">
+                <button id="mobile-menu-button" class="text-gray-700 hover:text-slate-900 focus:outline-none p-2 -mr-2" aria-label="Buka menu navigasi">
                     <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                     </svg>

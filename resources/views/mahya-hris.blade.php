@@ -64,21 +64,32 @@
     .dot-red { background: #fca5a5; }
     .dot-yellow { background: #fcd34d; }
     .dot-green { background: #86efac; }
+
+    @media (max-width: 640px) {
+        .bento-card:hover {
+            transform: none;
+        }
+
+        .mockup-window {
+            border-radius: 0.875rem;
+            box-shadow: 0 18px 35px -18px rgba(15, 23, 42, 0.45);
+        }
+    }
 </style>
 @endpush
 
 @section('content')
 <!-- Hero Showcase Section -->
-<section class="relative pt-32 pb-20 lg:pt-40 lg:pb-32 overflow-hidden bg-slate-50">
+<section class="relative pt-28 pb-14 sm:pt-32 sm:pb-20 lg:pt-40 lg:pb-32 overflow-hidden bg-slate-50">
     <!-- Glowing Background Effects -->
     <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-5xl h-[500px] opacity-40 pointer-events-none">
-        <div class="absolute top-20 left-1/4 w-96 h-96 bg-blue-400 rounded-full mix-blend-multiply filter blur-[100px] opacity-70"></div>
-        <div class="absolute top-10 right-1/4 w-96 h-96 bg-indigo-300 rounded-full mix-blend-multiply filter blur-[100px] opacity-70"></div>
+        <div class="absolute top-20 left-1/4 w-56 h-56 sm:w-96 sm:h-96 bg-blue-400 rounded-full mix-blend-multiply filter blur-[80px] sm:blur-[100px] opacity-70"></div>
+        <div class="absolute top-10 right-1/4 w-56 h-56 sm:w-96 sm:h-96 bg-indigo-300 rounded-full mix-blend-multiply filter blur-[80px] sm:blur-[100px] opacity-70"></div>
     </div>
 
     <div class="relative section-shell px-4 sm:px-6 lg:px-8 text-center z-10">
         <!-- Badge -->
-        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-pill mb-8">
+        <div class="inline-flex items-center gap-2 px-3 py-2 sm:px-4 rounded-full glass-pill mb-6 sm:mb-8">
             <span class="flex h-2 w-2 relative">
                 <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
                 <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
@@ -87,28 +98,28 @@
         </div>
 
         <!-- Typography -->
-        <h1 class="text-5xl md:text-6xl lg:text-7xl font-black tracking-tight text-slate-900 leading-[1.1] max-w-4xl mx-auto">
+        <h1 class="text-[2.45rem] sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tight text-slate-900 leading-[1.08] max-w-4xl mx-auto">
             Sistem HR Modern untuk <br class="hidden md:block" />
             <span class="text-gradient-blue">Tim yang Bergerak Cepat</span>
         </h1>
-        <p class="mt-8 text-xl text-slate-600 leading-relaxed max-w-2xl mx-auto">
+        <p class="mt-6 sm:mt-8 text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed max-w-2xl mx-auto">
             Otomatisasi absensi, payroll, dan persetujuan berjenjang dalam satu aplikasi. Tinggalkan cara lama, mulai bekerja lebih cerdas.
         </p>
 
         <!-- CTA Buttons -->
-        <div class="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
-            <a href="#hris-demo" class="px-8 py-4 rounded-full bg-blue-600 text-white font-bold text-lg shadow-[0_10px_30px_rgba(37,99,235,0.3)] hover:bg-blue-700 hover:shadow-[0_15px_40px_rgba(37,99,235,0.4)] hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto">
+        <div class="mt-8 sm:mt-10 flex flex-col sm:flex-row justify-center items-stretch sm:items-center gap-3 sm:gap-4">
+            <a href="#hris-demo" class="px-6 sm:px-8 py-4 rounded-full bg-blue-600 text-white font-bold text-base sm:text-lg text-center shadow-[0_10px_30px_rgba(37,99,235,0.3)] hover:bg-blue-700 hover:shadow-[0_15px_40px_rgba(37,99,235,0.4)] hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto">
                 Minta Demo Sekarang
             </a>
-            <a href="#fitur" class="px-8 py-4 rounded-full bg-white border border-slate-200 text-slate-700 font-bold text-lg hover:bg-slate-50 hover:border-slate-300 transition-all duration-300 w-full sm:w-auto">
+            <a href="#fitur" class="px-6 sm:px-8 py-4 rounded-full bg-white border border-slate-200 text-slate-700 font-bold text-base sm:text-lg text-center hover:bg-slate-50 hover:border-slate-300 transition-all duration-300 w-full sm:w-auto">
                 Eksplorasi Modul
             </a>
         </div>
     </div>
 
     <!-- The Product Showcase (Massive Image Placeholder) -->
-    <div class="relative mt-20 max-w-6xl mx-auto px-4 sm:px-6 z-20">
-        <div class="mockup-window border-4 border-white shadow-2xl bg-slate-100 aspect-video relative flex flex-col group">
+    <div class="relative mt-12 sm:mt-20 max-w-6xl mx-auto px-4 sm:px-6 z-20">
+        <div class="mockup-window border-2 sm:border-4 border-white shadow-2xl bg-slate-100 aspect-[4/3] sm:aspect-video min-h-[360px] sm:min-h-0 relative flex flex-col group">
             <div class="mockup-header">
                 <div class="mockup-dot dot-red"></div>
                 <div class="mockup-dot dot-yellow"></div>
@@ -117,10 +128,10 @@
             </div>
             
             <!-- App Placeholder Area -->
-            <div class="flex-1 relative bg-slate-50 overflow-hidden flex items-center justify-center p-8">
+            <div class="flex-1 relative bg-slate-50 overflow-hidden flex items-center justify-center p-3 sm:p-6 lg:p-8">
                 <!-- Abstract UI Representation -->
-                <div class="w-full h-full max-w-4xl flex flex-col gap-6 opacity-30 group-hover:opacity-100 transition-opacity duration-700">
-                    <div class="flex gap-6">
+                <div class="w-full h-full max-w-4xl flex flex-col gap-3 sm:gap-6 opacity-35 sm:opacity-30 group-hover:opacity-100 transition-opacity duration-700">
+                    <div class="flex gap-3 sm:gap-6 h-full">
                         <!-- Sidebar mockup -->
                         <div class="w-48 hidden md:flex flex-col gap-3">
                             <div class="h-8 bg-blue-200 rounded-lg w-3/4 mb-4"></div>
@@ -132,26 +143,26 @@
                             <div class="h-4 bg-slate-200 rounded w-5/6"></div>
                         </div>
                         <!-- Main content mockup -->
-                        <div class="flex-1 flex flex-col gap-6">
+                        <div class="flex-1 flex flex-col gap-3 sm:gap-6 min-w-0">
                             <!-- Top stats -->
-                            <div class="grid grid-cols-3 gap-4">
-                                <div class="h-24 bg-white rounded-xl border border-slate-200 shadow-sm p-4 flex flex-col justify-between">
+                            <div class="grid grid-cols-1 min-[420px]:grid-cols-3 gap-3 sm:gap-4">
+                                <div class="h-16 sm:h-24 bg-white rounded-xl border border-slate-200 shadow-sm p-3 sm:p-4 flex flex-col justify-between">
                                     <div class="h-3 bg-slate-100 rounded w-1/2"></div>
-                                    <div class="h-8 bg-blue-100 rounded w-3/4"></div>
+                                    <div class="h-6 sm:h-8 bg-blue-100 rounded w-3/4"></div>
                                 </div>
-                                <div class="h-24 bg-white rounded-xl border border-slate-200 shadow-sm p-4 flex flex-col justify-between">
+                                <div class="h-16 sm:h-24 bg-white rounded-xl border border-slate-200 shadow-sm p-3 sm:p-4 flex flex-col justify-between">
                                     <div class="h-3 bg-slate-100 rounded w-1/2"></div>
-                                    <div class="h-8 bg-green-100 rounded w-3/4"></div>
+                                    <div class="h-6 sm:h-8 bg-green-100 rounded w-3/4"></div>
                                 </div>
-                                <div class="h-24 bg-white rounded-xl border border-slate-200 shadow-sm p-4 flex flex-col justify-between">
+                                <div class="h-16 sm:h-24 bg-white rounded-xl border border-slate-200 shadow-sm p-3 sm:p-4 flex flex-col justify-between">
                                     <div class="h-3 bg-slate-100 rounded w-1/2"></div>
-                                    <div class="h-8 bg-purple-100 rounded w-3/4"></div>
+                                    <div class="h-6 sm:h-8 bg-purple-100 rounded w-3/4"></div>
                                 </div>
                             </div>
                             <!-- Chart area -->
-                            <div class="flex-1 bg-white rounded-xl border border-slate-200 shadow-sm p-6">
-                                <div class="h-4 bg-slate-100 rounded w-1/4 mb-6"></div>
-                                <div class="w-full h-48 bg-gradient-to-t from-blue-50 to-white rounded-lg border-b-2 border-blue-200 relative">
+                            <div class="flex-1 bg-white rounded-xl border border-slate-200 shadow-sm p-3 sm:p-6 min-h-[120px]">
+                                <div class="h-4 bg-slate-100 rounded w-1/3 sm:w-1/4 mb-4 sm:mb-6"></div>
+                                <div class="w-full h-full min-h-[96px] sm:min-h-[12rem] bg-gradient-to-t from-blue-50 to-white rounded-lg border-b-2 border-blue-200 relative overflow-hidden">
                                     <!-- Fake chart bars -->
                                     <div class="absolute bottom-0 left-10 w-8 h-1/2 bg-blue-400 rounded-t-sm"></div>
                                     <div class="absolute bottom-0 left-24 w-8 h-3/4 bg-blue-500 rounded-t-sm"></div>
@@ -165,9 +176,9 @@
                 
                 <!-- Placeholder Text -->
                 <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
-                    <div class="bg-white/90 backdrop-blur px-8 py-4 rounded-2xl shadow-xl text-center border border-slate-100">
-                        <svg class="w-12 h-12 text-blue-600 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
-                        <p class="font-bold text-slate-800 text-lg">Area Gambar Aplikasi</p>
+                    <div class="max-w-[85%] bg-white/90 backdrop-blur px-5 sm:px-8 py-4 rounded-2xl shadow-xl text-center border border-slate-100">
+                        <svg class="w-9 h-9 sm:w-12 sm:h-12 text-blue-600 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                        <p class="font-bold text-slate-800 text-base sm:text-lg">Area Gambar Aplikasi</p>
                         <p class="text-slate-500 text-sm">(Akan diganti dengan screenshot asli)</p>
                     </div>
                 </div>
@@ -190,16 +201,16 @@
 </section>
 
 <!-- Bento Grid Features Section -->
-<section id="fitur" class="py-24 bg-white relative">
+<section id="fitur" class="py-16 sm:py-20 lg:py-24 bg-white relative">
     <div class="section-shell px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-            <h2 class="text-3xl md:text-5xl font-black text-slate-900 tracking-tight">Semua yang Anda butuhkan, <br />di dalam satu platform.</h2>
-            <p class="mt-6 text-lg text-slate-600">Tidak perlu lagi membuka banyak aplikasi. Mahya HRIS merangkum proses krusial HR dalam antarmuka yang sangat mudah dipahami.</p>
+        <div class="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 tracking-tight leading-tight">Semua yang Anda butuhkan, <br class="hidden sm:block" />di dalam satu platform.</h2>
+            <p class="mt-4 sm:mt-6 text-base sm:text-lg text-slate-600 leading-relaxed">Tidak perlu lagi membuka banyak aplikasi. Mahya HRIS merangkum proses krusial HR dalam antarmuka yang sangat mudah dipahami.</p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-6xl mx-auto">
             <!-- Large Card 1 -->
-            <div class="bento-card bg-blue md:col-span-2 p-8 lg:p-10 flex flex-col justify-between min-h-[300px] group cursor-pointer">
+            <div class="bento-card bg-blue sm:col-span-2 p-6 sm:p-8 lg:p-10 flex flex-col justify-between min-h-[260px] sm:min-h-[300px] group cursor-pointer">
                 <div class="relative z-10 max-w-md">
                     <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center text-blue-600 mb-6 group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" /></svg>
@@ -212,7 +223,7 @@
             </div>
 
             <!-- Small Card 1 -->
-            <div class="bento-card p-8 lg:p-10 min-h-[300px] group cursor-pointer border-indigo-100 hover:border-indigo-300">
+            <div class="bento-card p-6 sm:p-8 lg:p-10 min-h-[240px] sm:min-h-[300px] group cursor-pointer border-indigo-100 hover:border-indigo-300">
                 <div class="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-indigo-600 mb-6 group-hover:scale-110 group-hover:bg-indigo-600 group-hover:text-white transition-all duration-300 shadow-sm">
                     <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                 </div>
@@ -222,7 +233,7 @@
             </div>
 
             <!-- Small Card 2 -->
-            <div class="bento-card p-8 lg:p-10 min-h-[300px] group cursor-pointer border-green-100 hover:border-green-300">
+            <div class="bento-card p-6 sm:p-8 lg:p-10 min-h-[240px] sm:min-h-[300px] group cursor-pointer border-green-100 hover:border-green-300">
                 <div class="w-12 h-12 bg-green-50 rounded-xl flex items-center justify-center text-green-600 mb-6 group-hover:scale-110 group-hover:bg-green-600 group-hover:text-white transition-all duration-300 shadow-sm">
                     <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                 </div>
@@ -232,7 +243,7 @@
             </div>
 
             <!-- Large Card 2 -->
-            <div class="bento-card md:col-span-2 p-8 lg:p-10 bg-white border border-blue-100 hover:border-blue-300 min-h-[300px] group cursor-pointer overflow-hidden">
+            <div class="bento-card sm:col-span-2 p-6 sm:p-8 lg:p-10 bg-white border border-blue-100 hover:border-blue-300 min-h-[260px] sm:min-h-[300px] group cursor-pointer overflow-hidden">
                 <div class="relative z-10 max-w-md">
                     <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600 mb-6 shadow-sm group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
@@ -249,17 +260,17 @@
 </section>
 
 <!-- Modules / Details Section -->
-<section class="py-24 bg-slate-50 border-t border-slate-100">
+<section class="py-16 sm:py-20 lg:py-24 bg-slate-50 border-t border-slate-100">
     <div class="section-shell px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
-        <div class="mb-16 text-center">
+        <div class="mb-10 sm:mb-16 text-center">
             <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100/50 text-blue-700 text-xs font-bold uppercase tracking-widest mb-4">Eksplorasi Fitur</span>
             <h2 class="text-3xl md:text-4xl font-black text-slate-900">Modul Lengkap Kami</h2>
             <p class="mt-4 text-slate-600 max-w-2xl mx-auto">Kami menyediakan berbagai modul yang siap digunakan untuk menunjang produktivitas tim Anda dari ujung ke ujung.</p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             <!-- Modul Item Card 1 -->
-            <div class="bg-white rounded-2xl p-8 border border-slate-200/60 shadow-sm hover:shadow-[0_20px_40px_-15px_rgba(37,99,235,0.15)] hover:-translate-y-2 hover:border-blue-200 transition-all duration-300 group cursor-pointer flex flex-col h-full">
+            <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/60 shadow-sm hover:shadow-[0_20px_40px_-15px_rgba(37,99,235,0.15)] hover:-translate-y-2 hover:border-blue-200 transition-all duration-300 group cursor-pointer flex flex-col h-full">
                 <div class="w-10 h-10 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center mb-5 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
                     <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
                 </div>
@@ -271,7 +282,7 @@
             </div>
             
             <!-- Modul Item Card 2 -->
-            <div class="bg-white rounded-2xl p-8 border border-slate-200/60 shadow-sm hover:shadow-[0_20px_40px_-15px_rgba(37,99,235,0.15)] hover:-translate-y-2 hover:border-blue-200 transition-all duration-300 group cursor-pointer flex flex-col h-full">
+            <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/60 shadow-sm hover:shadow-[0_20px_40px_-15px_rgba(37,99,235,0.15)] hover:-translate-y-2 hover:border-blue-200 transition-all duration-300 group cursor-pointer flex flex-col h-full">
                 <div class="w-10 h-10 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center mb-5 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
                     <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>
                 </div>
@@ -283,7 +294,7 @@
             </div>
             
             <!-- Modul Item Card 3 -->
-            <div class="bg-white rounded-2xl p-8 border border-slate-200/60 shadow-sm hover:shadow-[0_20px_40px_-15px_rgba(37,99,235,0.15)] hover:-translate-y-2 hover:border-blue-200 transition-all duration-300 group cursor-pointer flex flex-col h-full">
+            <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/60 shadow-sm hover:shadow-[0_20px_40px_-15px_rgba(37,99,235,0.15)] hover:-translate-y-2 hover:border-blue-200 transition-all duration-300 group cursor-pointer flex flex-col h-full">
                 <div class="w-10 h-10 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center mb-5 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
                     <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
                 </div>
@@ -295,7 +306,7 @@
             </div>
             
             <!-- Modul Item Card 4 -->
-            <div class="bg-white rounded-2xl p-8 border border-slate-200/60 shadow-sm hover:shadow-[0_20px_40px_-15px_rgba(37,99,235,0.15)] hover:-translate-y-2 hover:border-blue-200 transition-all duration-300 group cursor-pointer flex flex-col h-full">
+            <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/60 shadow-sm hover:shadow-[0_20px_40px_-15px_rgba(37,99,235,0.15)] hover:-translate-y-2 hover:border-blue-200 transition-all duration-300 group cursor-pointer flex flex-col h-full">
                 <div class="w-10 h-10 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center mb-5 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
                     <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
                 </div>
@@ -312,7 +323,7 @@
 <!-- Massive CTA Section -->
 <section id="hris-demo" class="py-12 md:py-24 bg-white">
     <div class="section-shell px-4 sm:px-6 lg:px-8">
-        <div class="bg-blue-600 rounded-[2.5rem] p-8 md:p-16 relative overflow-hidden shadow-2xl flex flex-col lg:flex-row items-center gap-12">
+        <div class="bg-blue-600 rounded-3xl sm:rounded-[2.5rem] p-6 sm:p-8 md:p-16 relative overflow-hidden shadow-2xl flex flex-col lg:flex-row items-stretch lg:items-center gap-8 lg:gap-12">
             <!-- Background Graphic -->
             <div class="absolute top-0 right-0 w-full h-full pointer-events-none opacity-20">
                 <svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" class="absolute right-0 transform translate-x-1/3 -translate-y-1/4">
@@ -325,11 +336,11 @@
 
             <!-- Content -->
             <div class="flex-1 text-white z-10">
-                <h2 class="text-4xl md:text-5xl font-black mb-6 leading-tight">Siap mentransformasi HR perusahaan Anda?</h2>
-                <p class="text-blue-100 text-lg md:text-xl leading-relaxed mb-8 max-w-lg">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-black mb-5 sm:mb-6 leading-tight">Siap mentransformasi HR perusahaan Anda?</h2>
+                <p class="text-blue-100 text-base sm:text-lg md:text-xl leading-relaxed mb-6 sm:mb-8 max-w-lg">
                     Dapatkan demo gratis hari ini. Tim kami akan menyesuaikan Mahya HRIS agar pas dengan alur kerja spesifik di perusahaan Anda.
                 </p>
-                <div class="flex flex-col sm:flex-row gap-4">
+                <div class="flex flex-col sm:flex-row gap-3 sm:gap-4">
                     <div class="flex items-center gap-2 text-blue-100">
                         <svg class="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
                         Setup Cepat
@@ -342,8 +353,8 @@
             </div>
 
             <!-- Form Card -->
-            <div class="w-full max-w-md bg-white rounded-3xl p-8 shadow-xl z-10 relative">
-                <h3 class="text-2xl font-bold text-slate-900 mb-6">Minta Jadwal Demo</h3>
+            <div class="w-full lg:max-w-md bg-white rounded-3xl p-6 sm:p-8 shadow-xl z-10 relative">
+                <h3 class="text-xl sm:text-2xl font-bold text-slate-900 mb-6">Minta Jadwal Demo</h3>
                 <form action="{{ route('interest.store') }}" method="POST" class="space-y-4">
                     @csrf
                     <div>
