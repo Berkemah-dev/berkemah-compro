@@ -174,12 +174,15 @@
                     </div>
                 </div>
                 
-                <!-- Placeholder Text -->
-                <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
-                    <div class="max-w-[85%] bg-white/90 backdrop-blur px-5 sm:px-8 py-4 rounded-2xl shadow-xl text-center border border-slate-100">
-                        <svg class="w-9 h-9 sm:w-12 sm:h-12 text-blue-600 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
-                        <p class="font-bold text-slate-800 text-base sm:text-lg">Area Gambar Aplikasi</p>
-                        <p class="text-slate-500 text-sm">(Akan diganti dengan screenshot asli)</p>
+                <!-- Image + Placeholder Text Overlay -->
+                <div class="absolute inset-0">
+                    <img src="{{ asset('assets/1271a5023ed8f830ff48e66f80e086f5.jpg') }}" alt="Area Gambar Aplikasi" class="h-full w-full object-cover rounded-2xl" />
+                    <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                        <div class="max-w-[85%] bg-white/90 backdrop-blur px-5 sm:px-8 py-4 rounded-2xl shadow-xl text-center border border-slate-100">
+                            <svg class="w-9 h-9 sm:w-12 sm:h-12 text-blue-600 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                            <p class="font-bold text-slate-800 text-base sm:text-lg">Area Gambar Aplikasi</p>
+                            <p class="text-slate-500 text-sm">(Akan diganti dengan screenshot asli)</p>
+                        </div>
                     </div>
                 </div>
             </div>
