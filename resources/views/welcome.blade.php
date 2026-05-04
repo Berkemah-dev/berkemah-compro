@@ -311,7 +311,7 @@
                 <ul class="mt-4 space-y-2 text-slate-700">
                     <li><a href="/#about" class="hover:text-slate-900">Tentang</a></li>
                     <li><a href="/#journey" class="hover:text-slate-900">Perjalanan</a></li>
-                    <li><a href="mailto:info@mahyahris.com" class="hover:text-slate-900">info@mahyahris.com</a></li>
+                    <li><a href="mailto:support@berkemah.com" class="hover:text-slate-900">support@berkemah.com</a></li>
                 </ul>
             </div>
         </div>
