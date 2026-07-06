@@ -16,6 +16,11 @@ class PageController extends Controller
         return view('pages.layanan');
     }
 
+    public function portofolio()
+    {
+        return view('pages.portofolio');
+    }
+
     public function mahasiswa()
     {
         return view('pages.mahasiswa');

@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/layanan', [PageController::class, 'layanan'])->name('layanan');
+Route::get('/portofolio', [PageController::class, 'portofolio'])->name('portofolio');
 Route::get('/mahasiswa', [PageController::class, 'mahasiswa'])->name('mahasiswa');
 Route::get('/umkm', [PageController::class, 'umkm'])->name('umkm');
 Route::get('/properti-it-modern', [PageController::class, 'propertiItModern'])->name('properti-it-modern');

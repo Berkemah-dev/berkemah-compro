@@ -36,26 +36,37 @@ Kami menyediakan solusi properti IT modern untuk menunjang kebutuhan digital And
 </div>
 </div>
 
-<section class="bg-primary-container rounded-xl p-12 mb-16">
-<div class="max-w-4xl mx-auto text-center">
-<h2 class="font-headline-lg text-headline-lg mb-6 text-on-primary-container">Design System Terintegrasi</h2>
-<p class="font-body-lg text-body-lg mb-8 opacity-90">Kami menerapkan design system modern yang konsisten di seluruh properti IT Anda, memastikan pengalaman pengguna yang seragam dan profesional.</p>
-<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-<div class="bg-white/20 p-6 rounded-lg">
-<span class="material-symbols-outlined text-4xl text-primary">palette</span>
-<p class="font-label-md text-label-md mt-2">Color System</p>
+<section class="relative mb-16 overflow-hidden rounded-2xl bg-primary px-6 py-12 text-white shadow-[0px_18px_48px_rgba(0,102,255,0.22)] md:px-12 md:py-16">
+<div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.22),transparent_34%),linear-gradient(135deg,rgba(255,255,255,0.08),transparent_55%)]"></div>
+<div class="relative mx-auto max-w-5xl text-center">
+<h2 class="font-headline-lg text-headline-lg mb-5 text-white">Design System Terintegrasi</h2>
+<p class="mx-auto mb-10 max-w-3xl font-body-lg text-body-lg text-white/85">
+Kami menerapkan design system modern yang konsisten di seluruh properti IT Anda, memastikan pengalaman pengguna yang seragam dan profesional.
+</p>
+<div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+<div class="rounded-lg border border-white/20 bg-white/14 p-6 shadow-[0px_10px_28px_rgba(0,0,0,0.08)] backdrop-blur">
+<div class="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-white text-primary">
+<span class="material-symbols-outlined text-3xl">palette</span>
 </div>
-<div class="bg-white/20 p-6 rounded-lg">
-<span class="material-symbols-outlined text-4xl text-primary">text_fields</span>
-<p class="font-label-md text-label-md mt-2">Typography</p>
+<p class="font-label-md text-label-md font-bold text-white">Color System</p>
 </div>
-<div class="bg-white/20 p-6 rounded-lg">
-<span class="material-symbols-outlined text-4xl text-primary">grid_view</span>
-<p class="font-label-md text-label-md mt-2">Layout Grid</p>
+<div class="rounded-lg border border-white/20 bg-white/14 p-6 shadow-[0px_10px_28px_rgba(0,0,0,0.08)] backdrop-blur">
+<div class="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-white text-primary">
+<span class="material-symbols-outlined text-3xl">text_fields</span>
 </div>
-<div class="bg-white/20 p-6 rounded-lg">
-<span class="material-symbols-outlined text-4xl text-primary">mood</span>
-<p class="font-label-md text-label-md mt-2">Components</p>
+<p class="font-label-md text-label-md font-bold text-white">Typography</p>
+</div>
+<div class="rounded-lg border border-white/20 bg-white/14 p-6 shadow-[0px_10px_28px_rgba(0,0,0,0.08)] backdrop-blur">
+<div class="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-white text-primary">
+<span class="material-symbols-outlined text-3xl">grid_view</span>
+</div>
+<p class="font-label-md text-label-md font-bold text-white">Layout Grid</p>
+</div>
+<div class="rounded-lg border border-white/20 bg-white/14 p-6 shadow-[0px_10px_28px_rgba(0,0,0,0.08)] backdrop-blur">
+<div class="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-white text-primary">
+<span class="material-symbols-outlined text-3xl">mood</span>
+</div>
+<p class="font-label-md text-label-md font-bold text-white">Components</p>
 </div>
 </div>
 </div>

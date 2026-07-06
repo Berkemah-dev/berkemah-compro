@@ -21,9 +21,9 @@ Bantuan pengerjaan proyek kuliah, debugging kode, hingga asistensi laporan prakt
 <span class="material-symbols-outlined">chat_bubble</span>
 Tanya Project
 </button>
-<button class="bg-white border-2 border-primary-container text-primary px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary-container/5 transition-all">
-Lihat Portfolio
-</button>
+<a href="{{ route('portofolio') }}" class="bg-white border-2 border-primary-container text-primary px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary-container/5 transition-all inline-flex items-center justify-center">
+Lihat Portofolio
+</a>
 </div>
 <div class="flex items-center gap-stack-md pt-stack-lg">
 <div class="flex -space-x-3">

@@ -176,27 +176,29 @@ tailwind.config = {
             <span class="hidden min-w-0 font-bold tracking-tight truncate sm:block font-headline-md text-headline-md text-primary">Berkemah Team</span>
         </a>
 
-        <div class="items-center hidden md:flex gap-gutter lg:gap-8">
+        <div class="items-center hidden lg:flex gap-6">
             <a href="{{ route('layanan') }}" class="text-body-md @if(request()->routeIs('layanan')) text-primary font-bold border-b-2 border-primary pb-1 @else text-on-surface-variant hover:text-primary @endif transition-colors">Layanan</a>
+            <a href="{{ route('portofolio') }}" class="text-body-md @if(request()->routeIs('portofolio')) text-primary font-bold border-b-2 border-primary pb-1 @else text-on-surface-variant hover:text-primary @endif transition-colors">Portofolio</a>
             <a href="{{ route('umkm') }}" class="text-body-md @if(request()->routeIs('umkm')) text-primary font-bold border-b-2 border-primary pb-1 @else text-on-surface-variant hover:text-primary @endif transition-colors">UMKM</a>
             <a href="{{ route('mahasiswa') }}" class="text-body-md @if(request()->routeIs('mahasiswa')) text-primary font-bold border-b-2 border-primary pb-1 @else text-on-surface-variant hover:text-primary @endif transition-colors">Mahasiswa</a>
             <a href="{{ route('properti-it-modern') }}" class="text-body-md @if(request()->routeIs('properti-it-modern')) text-primary font-bold border-b-2 border-primary pb-1 @else text-on-surface-variant hover:text-primary @endif transition-colors">Properti IT</a>
         </div>
 
-        <div class="items-center hidden md:flex gap-stack-md">
+        <div class="items-center hidden lg:flex gap-stack-md">
             <a href="https://wa.me/62881023806530?text=Mau%20tanya-tanya%20soal%20website" class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-bold active:scale-95 transition-transform">Tanya Website</a>
         </div>
 
-        <div class="flex items-center gap-2 md:hidden">
+        <div class="flex items-center gap-2 lg:hidden">
             <button id="mobile-menu-button" class="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white p-2.5 text-slate-700 shadow-sm transition hover:border-primary hover:text-primary" aria-label="Buka menu navigasi" aria-expanded="false">
                 <span class="material-symbols-outlined text-[22px]">menu</span>
             </button>
         </div>
     </div>
 
-    <div id="mobile-menu" class="md:hidden hidden border-t border-slate-200 bg-surface/95 px-margin-mobile pb-4 pt-3 shadow-[0_18px_30px_rgba(0,0,0,0.08)]">
+    <div id="mobile-menu" class="lg:hidden hidden border-t border-slate-200 bg-surface/95 px-margin-mobile pb-4 pt-3 shadow-[0_18px_30px_rgba(0,0,0,0.08)]">
         <div class="grid gap-2">
             <a href="{{ route('layanan') }}" class="rounded-2xl px-4 py-3 text-body-md @if(request()->routeIs('layanan')) text-primary font-bold bg-primary/5 @else text-on-surface-variant hover:bg-surface-container-low hover:text-primary @endif transition-colors">Layanan</a>
+            <a href="{{ route('portofolio') }}" class="rounded-2xl px-4 py-3 text-body-md @if(request()->routeIs('portofolio')) text-primary font-bold bg-primary/5 @else text-on-surface-variant hover:bg-surface-container-low hover:text-primary @endif transition-colors">Portofolio</a>
             <a href="{{ route('umkm') }}" class="rounded-2xl px-4 py-3 text-body-md @if(request()->routeIs('umkm')) text-primary font-bold bg-primary/5 @else text-on-surface-variant hover:bg-surface-container-low hover:text-primary @endif transition-colors">UMKM</a>
             <a href="{{ route('mahasiswa') }}" class="rounded-2xl px-4 py-3 text-body-md @if(request()->routeIs('mahasiswa')) text-primary font-bold bg-primary/5 @else text-on-surface-variant hover:bg-surface-container-low hover:text-primary @endif transition-colors">Mahasiswa</a>
             <a href="{{ route('properti-it-modern') }}" class="rounded-2xl px-4 py-3 text-body-md @if(request()->routeIs('properti-it-modern')) text-primary font-bold bg-primary/5 @else text-on-surface-variant hover:bg-surface-container-low hover:text-primary @endif transition-colors">Properti IT</a>
@@ -223,6 +225,7 @@ tailwind.config = {
                 <h4 class="text-sm font-bold uppercase tracking-[0.15em] text-on-surface-variant">Produk</h4>
                 <ul class="mt-4 space-y-3 text-body-md text-on-surface">
                     <li><a href="{{ route('layanan') }}" class="transition-colors hover:text-primary">Layanan</a></li>
+                    <li><a href="{{ route('portofolio') }}" class="transition-colors hover:text-primary">Portofolio</a></li>
                     <li><a href="{{ route('umkm') }}" class="transition-colors hover:text-primary">UMKM</a></li>
                     <li><a href="{{ route('mahasiswa') }}" class="transition-colors hover:text-primary">Mahasiswa</a></li>
                     <li><a href="{{ route('properti-it-modern') }}" class="transition-colors hover:text-primary">Properti IT</a></li>
