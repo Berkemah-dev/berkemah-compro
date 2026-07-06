@@ -1,0 +1,4 @@
+If you can see this file, the webserver is serving static files from public_html.
+If you get 403 for this file as well, the problem is at the webserver (DocumentRoot, permissions, or vhost).
+
+Remove this file after testing.

@@ -139,25 +139,51 @@ tailwind.config = {
     }
 </style>
 @stack('styles')
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@yield('title', 'Berkemah Team - Mahya HRIS & Mahya HSE')</title>
+    <meta name="description" content="@yield('meta_description', 'Berkemah Team membangun Mahya HRIS dan Mahya HSE, platform SaaS untuk merapikan operasional HR dan keselamatan kerja perusahaan.')">
+    <meta name="keywords" content="@yield('meta_keywords', 'Berkemah Team, Mahya HRIS, Mahya HSE, SaaS HRIS Indonesia, software HSE, startup Bandung')">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="{{ rtrim(config('app.url', 'https://berkemah.com'), '/') . '/' }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Berkemah Team">
+    <meta property="og:title" content="@yield('og_title', trim($__env->yieldContent('title')) ?: 'Berkemah Team - Mahya HRIS & Mahya HSE')">
+    <meta property="og:description" content="@yield('og_description', trim($__env->yieldContent('meta_description')) ?: 'Berkemah Team membangun Mahya HRIS dan Mahya HSE, platform SaaS untuk merapikan operasional HR dan keselamatan kerja perusahaan.')">
+    <meta property="og:url" content="{{ url()->current() }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="@yield('twitter_title', trim($__env->yieldContent('title')) ?: 'Berkemah Team - Mahya HRIS & Mahya HSE')">
+    <meta name="twitter:description" content="@yield('twitter_description', trim($__env->yieldContent('meta_description')) ?: 'Berkemah Team membangun Mahya HRIS dan Mahya HSE, platform SaaS untuk merapikan operasional HR dan keselamatan kerja perusahaan.')">
+
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="google-site-verification" content="JkVGsGLT3J_9j22pO8DRtf_V-JCCbJctrbmJsjbRPnU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @yield('head')
+    @stack('styles')
 </head>
-<body class="bg-surface text-on-surface font-body-md overflow-x-hidden selection:bg-primary-fixed selection:text-on-primary-fixed">
+<body class="overflow-x-hidden bg-surface text-on-surface font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
 <nav class="fixed top-0 w-full z-50 border-b border-white/50 bg-surface/85 backdrop-blur-md glass-header shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
-    <div class="flex items-center justify-between gap-4 px-margin-mobile md:px-margin-desktop h-20">
-        <a href="{{ route('home') }}" class="flex items-center gap-3 min-w-0">
-            <span class="flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm sm:h-12 sm:w-12" aria-hidden="true">
-                <img src="{{ asset('assets/foto-berkemah.png') }}" alt="" class="h-full w-full object-cover">
+    <div class="flex items-center justify-between h-20 gap-4 px-margin-mobile md:px-margin-desktop">
+        <a href="{{ route('home') }}" class="flex items-center min-w-0 gap-3">
+            <span class="flex items-center justify-center overflow-hidden bg-white border shadow-sm h-11 w-11 shrink-0 rounded-2xl border-slate-200 sm:h-12 sm:w-12" aria-hidden="true">
+                <img src="{{ asset('assets/foto-berkemah.png') }}" alt="" class="object-cover w-full h-full">
             </span>
-            <span class="hidden sm:block min-w-0 truncate font-headline-md text-headline-md font-bold tracking-tight text-primary">Berkemah Team</span>
+            <span class="hidden min-w-0 font-bold tracking-tight truncate sm:block font-headline-md text-headline-md text-primary">Berkemah Team</span>
         </a>
 
-        <div class="hidden md:flex items-center gap-gutter lg:gap-8">
+        <div class="items-center hidden md:flex gap-gutter lg:gap-8">
             <a href="{{ route('layanan') }}" class="text-body-md @if(request()->routeIs('layanan')) text-primary font-bold border-b-2 border-primary pb-1 @else text-on-surface-variant hover:text-primary @endif transition-colors">Layanan</a>
             <a href="{{ route('umkm') }}" class="text-body-md @if(request()->routeIs('umkm')) text-primary font-bold border-b-2 border-primary pb-1 @else text-on-surface-variant hover:text-primary @endif transition-colors">UMKM</a>
             <a href="{{ route('mahasiswa') }}" class="text-body-md @if(request()->routeIs('mahasiswa')) text-primary font-bold border-b-2 border-primary pb-1 @else text-on-surface-variant hover:text-primary @endif transition-colors">Mahasiswa</a>
             <a href="{{ route('properti-it-modern') }}" class="text-body-md @if(request()->routeIs('properti-it-modern')) text-primary font-bold border-b-2 border-primary pb-1 @else text-on-surface-variant hover:text-primary @endif transition-colors">Properti IT</a>
         </div>
 
-        <div class="hidden md:flex items-center gap-stack-md">
+        <div class="items-center hidden md:flex gap-stack-md">
             <a href="https://wa.me/62881023806530?text=Mau%20tanya-tanya%20soal%20website" class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-bold active:scale-95 transition-transform">Tanya Website</a>
         </div>
 
@@ -181,42 +207,42 @@ tailwind.config = {
 
 @yield('content')
 
-<footer class="mt-section-gap border-t border-outline-variant bg-surface-container-highest/90 px-margin-mobile py-14 md:px-margin-desktop md:py-16">
-    <div class="mx-auto flex max-w-container-max flex-col gap-12">
+<footer class="border-t mt-section-gap border-outline-variant bg-surface-container-highest/90 px-margin-mobile py-14 md:px-margin-desktop md:py-16">
+    <div class="flex flex-col gap-12 mx-auto max-w-container-max">
         <div class="grid gap-10 md:grid-cols-[1.2fr_0.8fr_0.8fr] md:items-start">
             <div class="space-y-5">
                 <a href="{{ route('home') }}" class="flex items-center gap-4">
-                    <span class="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm" aria-hidden="true">
-                        <img src="{{ asset('assets/foto-berkemah.png') }}" alt="" class="h-full w-full object-cover">
+                    <span class="flex items-center justify-center overflow-hidden bg-white border shadow-sm h-14 w-14 shrink-0 rounded-2xl border-slate-200" aria-hidden="true">
+                        <img src="{{ asset('assets/foto-berkemah.png') }}" alt="" class="object-cover w-full h-full">
                     </span>
-                    <span class="font-headline-md text-2xl font-extrabold tracking-tight text-on-surface">Berkemah Team</span>
+                    <span class="text-2xl font-extrabold tracking-tight font-headline-md text-on-surface">Berkemah Team</span>
                 </a>
                 <p class="max-w-xl text-body-md text-on-surface-variant">Membantu UMKM dan mahasiswa dengan produk digital yang rapi, cepat dipahami, dan nyaman dipakai di layar kecil maupun besar.</p>
             </div>
             <div>
                 <h4 class="text-sm font-bold uppercase tracking-[0.15em] text-on-surface-variant">Produk</h4>
                 <ul class="mt-4 space-y-3 text-body-md text-on-surface">
-                    <li><a href="{{ route('layanan') }}" class="hover:text-primary transition-colors">Layanan</a></li>
-                    <li><a href="{{ route('umkm') }}" class="hover:text-primary transition-colors">UMKM</a></li>
-                    <li><a href="{{ route('mahasiswa') }}" class="hover:text-primary transition-colors">Mahasiswa</a></li>
-                    <li><a href="{{ route('properti-it-modern') }}" class="hover:text-primary transition-colors">Properti IT</a></li>
+                    <li><a href="{{ route('layanan') }}" class="transition-colors hover:text-primary">Layanan</a></li>
+                    <li><a href="{{ route('umkm') }}" class="transition-colors hover:text-primary">UMKM</a></li>
+                    <li><a href="{{ route('mahasiswa') }}" class="transition-colors hover:text-primary">Mahasiswa</a></li>
+                    <li><a href="{{ route('properti-it-modern') }}" class="transition-colors hover:text-primary">Properti IT</a></li>
                 </ul>
             </div>
             <div>
                 <h4 class="text-sm font-bold uppercase tracking-[0.15em] text-on-surface-variant">Kontak</h4>
                 <ul class="mt-4 space-y-3 text-body-md text-on-surface">
-                    <li><a href="https://wa.me/62881023806530" class="hover:text-primary transition-colors">0881023806530</a></li>
-                    <li><a href="#" class="hover:text-primary transition-colors">Instagram</a></li>
-                    <li><a href="#" class="hover:text-primary transition-colors">LinkedIn</a></li>
+                    <li><a href="https://wa.me/62881023806530" class="transition-colors hover:text-primary">0881023806530</a></li>
+                    <li><a href="#" class="transition-colors hover:text-primary">Instagram</a></li>
+                    <li><a href="#" class="transition-colors hover:text-primary">LinkedIn</a></li>
                 </ul>
             </div>
         </div>
-        <div class="flex flex-col gap-4 border-t border-outline-variant pt-6 text-sm text-on-surface-variant md:flex-row md:items-center md:justify-between">
+        <div class="flex flex-col gap-4 pt-6 text-sm border-t border-outline-variant text-on-surface-variant md:flex-row md:items-center md:justify-between">
             <p>&copy; 2026 Berkemah Team. All rights reserved.</p>
             <div class="flex flex-wrap gap-x-6 gap-y-2">
-                <a class="hover:text-primary transition-colors" href="#">Kebijakan Privasi</a>
-                <a class="hover:text-primary transition-colors" href="#">Syarat &amp; Ketentuan</a>
-                <a class="hover:text-primary transition-colors" href="#">Bantuan</a>
+                <a class="transition-colors hover:text-primary" href="#">Kebijakan Privasi</a>
+                <a class="transition-colors hover:text-primary" href="#">Syarat &amp; Ketentuan</a>
+                <a class="transition-colors hover:text-primary" href="#">Bantuan</a>
             </div>
         </div>
     </div>
