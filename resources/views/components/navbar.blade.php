@@ -3,11 +3,11 @@
         <div class="flex justify-between items-center h-16">
             <div class="flex items-center">
                 <div class="shrink-0">
-                    <a href="/" class="brand-lockup" aria-label="Berkemah Team">
-                        <span class="brand-logo shrink-0" aria-hidden="true">
+                    <a href="/" class="brand-lockup flex items-center gap-3 max-w-full" aria-label="Berkemah Team">
+                        <span class="brand-logo shrink-0 h-10 w-10 sm:h-12 sm:w-12 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm" aria-hidden="true">
                             <img src="{{ asset('assets/foto-berkemah.png') }}" alt="" class="h-full w-full rounded-[inherit] object-cover">
                         </span>
-                        <span class="text-base min-[380px]:text-lg sm:text-2xl font-extrabold uppercase tracking-[0.08em] sm:tracking-[0.12em] text-black leading-none">
+                        <span class="hidden min-[360px]:block text-base min-[380px]:text-lg sm:text-2xl font-extrabold uppercase tracking-[0.08em] sm:tracking-[0.12em] text-black leading-none whitespace-nowrap truncate">
                             BERKEMAH TEAM
                         </span>
                     </a>

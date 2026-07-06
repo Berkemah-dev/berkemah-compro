@@ -268,31 +268,31 @@
 </section>
 
 
-<footer class="py-12 border-t border-slate-200 bg-slate-50">
+<footer class="border-t border-slate-200 bg-gradient-to-b from-slate-50 to-white py-14">
     <div class="px-4 section-shell sm:px-6 lg:px-8">
-        <div class="grid gap-10 md:grid-cols-4">
-            <div class="md:col-span-2">
+        <div class="grid gap-10 md:grid-cols-[1.2fr_0.8fr_0.8fr] md:items-start">
+            <div>
                 <div class="flex items-center gap-4">
-                    <span class="brand-logo h-14 w-14" aria-hidden="true">
+                    <span class="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm" aria-hidden="true">
                         <img src="{{ asset('assets/foto-berkemah.png') }}" alt="" class="h-full w-full rounded-[inherit] object-cover">
                     </span>
-                    <h3 class="text-3xl font-extrabold uppercase tracking-[0.12em] text-black">BERKEMAH TEAM</h3>
+                    <h3 class="text-2xl sm:text-3xl font-extrabold uppercase tracking-[0.12em] text-black">BERKEMAH TEAM</h3>
                 </div>
-                <p class="max-w-xl mt-4 text-slate-600">Startup SaaS dari Bandung yang membangun pengalaman produk publik dengan standar UI modern, bahasa yang jelas, dan alur yang siap dipakai oleh perusahaan nyata.</p>
-                <div class="flex items-center gap-3 mt-6">
-                    <a href="https://instagram.com" target="_blank" rel="noreferrer" class="social-link" aria-label="Instagram">
+                <p class="max-w-xl mt-4 text-slate-600">Startup SaaS dari Bandung yang membangun pengalaman produk publik dengan standar UI modern, bahasa yang jelas, dan alur yang nyaman dipakai di semua ukuran layar.</p>
+                <div class="flex flex-wrap items-center gap-3 mt-6">
+                    <a href="https://instagram.com" target="_blank" rel="noreferrer" class="flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:-translate-y-0.5 hover:border-slate-300 hover:text-slate-900" aria-label="Instagram">
                         <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="1.8"/>
                             <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/>
                             <circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"/>
                         </svg>
                     </a>
-                    <a href="https://tiktok.com" target="_blank" rel="noreferrer" class="social-link" aria-label="TikTok">
+                    <a href="https://tiktok.com" target="_blank" rel="noreferrer" class="flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:-translate-y-0.5 hover:border-slate-300 hover:text-slate-900" aria-label="TikTok">
                         <svg viewBox="0 0 24 24" class="w-5 h-5" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path d="M16.8 3c.5 1.6 1.7 2.8 3.2 3.3v3a8 8 0 0 1-3.2-.9v5.8a5.8 5.8 0 1 1-5.8-5.8c.3 0 .6 0 .9.1v3.1a2.7 2.7 0 1 0 1.9 2.6V3h3z"/>
                         </svg>
                     </a>
-                    <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" class="social-link" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" class="flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:-translate-y-0.5 hover:border-slate-300 hover:text-slate-900" aria-label="LinkedIn">
                         <svg viewBox="0 0 24 24" class="w-5 h-5" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6.2 8.8H3V21h3.2V8.8zM4.6 7.3a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8zM21 21v-6.6c0-3.5-1.9-5.2-4.5-5.2-2.1 0-3 1.1-3.5 1.9V8.8H9.8c0 1.6 0 12.2 0 12.2H13v-6.8c0-.4 0-.7.1-1 .3-.7 1-1.5 2.2-1.5 1.5 0 2.2 1.1 2.2 2.8V21H21z"/>
                         </svg>
@@ -301,17 +301,17 @@
             </div>
             <div>
                 <h4 class="text-sm font-bold uppercase tracking-[0.15em] text-slate-500">Produk</h4>
-                <ul class="mt-4 space-y-2 text-slate-700">
-                    <li><a href="{{ route('mahya.hris') }}" class="hover:text-slate-900">Mahya HRIS</a></li>
-                    <li><a href="{{ route('mahya.hse') }}" class="hover:text-slate-900">Mahya HSE</a></li>
+                <ul class="mt-4 space-y-3 text-slate-700">
+                    <li><a href="{{ route('mahya.hris') }}" class="hover:text-slate-900 transition-colors">Mahya HRIS</a></li>
+                    <li><a href="{{ route('mahya.hse') }}" class="hover:text-slate-900 transition-colors">Mahya HSE</a></li>
                 </ul>
             </div>
             <div>
                 <h4 class="text-sm font-bold uppercase tracking-[0.15em] text-slate-500">Company</h4>
-                <ul class="mt-4 space-y-2 text-slate-700">
-                    <li><a href="/#about" class="hover:text-slate-900">Tentang</a></li>
-                    <li><a href="/#journey" class="hover:text-slate-900">Perjalanan</a></li>
-                    <li><a href="mailto:support@berkemah.com" class="hover:text-slate-900">support@berkemah.com</a></li>
+                <ul class="mt-4 space-y-3 text-slate-700">
+                    <li><a href="/#about" class="hover:text-slate-900 transition-colors">Tentang</a></li>
+                    <li><a href="/#journey" class="hover:text-slate-900 transition-colors">Perjalanan</a></li>
+                    <li><a href="mailto:support@berkemah.com" class="hover:text-slate-900 transition-colors">support@berkemah.com</a></li>
                 </ul>
             </div>
         </div>
