@@ -137,60 +137,61 @@ return mentorStepByStep(issue);
 <h2 class="font-headline-lg text-headline-lg mb-4">Investasi Untuk Masa Depanmu</h2>
 <p class="text-body-md text-on-surface-variant">Harga ramah kantong mahasiswa dengan kualitas pengerjaan standar industri IT profesional.</p>
 </div>
-<div class="flex bg-surface-container-highest p-1 rounded-full shadow-sm border border-outline-variant/20">
-<button class="px-6 py-2 rounded-full bg-primary text-white font-bold transition-all">Per Proyek</button>
-<button class="px-6 py-2 rounded-full text-on-surface-variant hover:text-primary transition-all">Mentoring Jam</button>
+<div id="student-pricing-toggle" class="flex bg-surface-container-highest p-1 rounded-full shadow-sm border border-outline-variant/20" role="tablist" aria-label="Mode harga mahasiswa">
+<button type="button" class="px-6 py-2 rounded-full bg-primary text-white font-bold transition-all" data-pricing-toggle="project" role="tab" aria-selected="true">Per Proyek</button>
+<button type="button" class="px-6 py-2 rounded-full text-on-surface-variant hover:text-primary transition-all" data-pricing-toggle="hourly" role="tab" aria-selected="false">Mentoring Jam</button>
 </div>
 </div>
 <div class="grid md:grid-cols-3 gap-gutter">
-<div class="p-8 rounded-lg bg-white border border-outline-variant hover:border-primary transition-colors flex flex-col h-full">
+<div class="p-8 rounded-lg bg-white border border-outline-variant hover:border-primary transition-colors flex flex-col h-full" data-pricing-card="starter">
 <div class="mb-8">
-<p class="text-label-md text-on-surface-variant uppercase tracking-widest mb-2">Daily Tasks</p>
-<h3 class="font-headline-md text-headline-md text-on-surface">Starter Lab</h3>
+<p class="text-label-md text-on-surface-variant uppercase tracking-widest mb-2" data-plan-eyebrow>Daily Tasks</p>
+<h3 class="font-headline-md text-headline-md text-on-surface" data-plan-title>Starter Lab</h3>
 <div class="mt-4 flex items-baseline">
-<span class="text-headline-lg font-bold">Rp 100k</span>
-<span class="text-on-surface-variant text-label-md">/jam</span>
+<span class="text-headline-lg font-bold" data-plan-price>Rp 150k - Rp 300k</span>
+<span class="text-on-surface-variant text-label-md" data-plan-unit>/project</span>
 </div>
 </div>
-<ul class="space-y-4 mb-10 flex-grow">
-<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span> <span class="text-on-surface-variant">Styling CSS/HTML Only</span></li>
-<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span> <span class="text-on-surface-variant">Simple Algorithm Debug</span></li>
-<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span> <span class="text-on-surface-variant">1x Revision</span></li>
+<ul class="space-y-4 mb-10 flex-grow" data-plan-features>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span> <span class="text-on-surface-variant">Landing page tugas kuliah</span></li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span> <span class="text-on-surface-variant">Debug tampilan sederhana</span></li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span> <span class="text-on-surface-variant">1x revisi ringan</span></li>
 </ul>
-<button class="w-full py-4 rounded-lg bg-secondary-container text-primary font-bold hover:bg-primary hover:text-white transition-all">Ambil Jam Mentoring</button>
+<button class="w-full py-4 rounded-lg bg-secondary-container text-primary font-bold hover:bg-primary hover:text-white transition-all" data-plan-button>Ambil Paket Starter</button>
 </div>
-<div class="p-8 rounded-lg bg-white border-2 border-primary relative shadow-xl transform md:-translate-y-4 flex flex-col h-full">
+<div class="p-8 rounded-lg bg-white border-2 border-primary relative shadow-xl transform md:-translate-y-4 flex flex-col h-full" data-pricing-card="pro">
 <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-white px-4 py-1 rounded-full text-[12px] font-bold">TERPOPULER</div>
 <div class="mb-8">
-<p class="text-label-md text-primary uppercase tracking-widest mb-2">Project Intensive</p>
-<h3 class="font-headline-md text-headline-md text-on-surface">Pro Lab</h3>
+<p class="text-label-md text-primary uppercase tracking-widest mb-2" data-plan-eyebrow>Project Intensive</p>
+<h3 class="font-headline-md text-headline-md text-on-surface" data-plan-title>Pro Lab</h3>
 <div class="mt-4 flex items-baseline">
-<span class="text-headline-lg font-bold text-primary">Rp 300k - Rp 1jt</span>
-<span class="text-on-surface-variant text-label-md">/project</span>
+<span class="text-headline-lg font-bold text-primary" data-plan-price>Rp 300k - Rp 1jt</span>
+<span class="text-on-surface-variant text-label-md" data-plan-unit>/project</span>
 </div>
 </div>
-<ul class="space-y-4 mb-10 flex-grow">
+<ul class="space-y-4 mb-10 flex-grow" data-plan-features>
 <li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span> <span class="text-on-surface-variant font-bold">Full CRUD System</span></li>
 <li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span> <span class="text-on-surface-variant">Database Design (ERD)</span></li>
 <li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span> <span class="text-on-surface-variant">Mentoring via Zoom 60min</span></li>
 <li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span> <span class="text-on-surface-variant">Code Explainer Docs</span></li>
 </ul>
-<button class="w-full py-4 rounded-lg bg-primary text-white font-bold hover:shadow-lg transition-all">Ambil Paket Project</button>
+<button class="w-full py-4 rounded-lg bg-primary text-white font-bold hover:shadow-lg transition-all" data-plan-button>Ambil Paket Project</button>
 </div>
-<div class="p-8 rounded-lg bg-white border border-outline-variant hover:border-primary transition-colors flex flex-col h-full">
+<div class="p-8 rounded-lg bg-white border border-outline-variant hover:border-primary transition-colors flex flex-col h-full" data-pricing-card="final">
 <div class="mb-8">
-<p class="text-label-md text-on-surface-variant uppercase tracking-widest mb-2">Thesis / Capstone</p>
-<h3 class="font-headline-md text-headline-md text-on-surface">Final Lab</h3>
+<p class="text-label-md text-on-surface-variant uppercase tracking-widest mb-2" data-plan-eyebrow>Thesis / Capstone</p>
+<h3 class="font-headline-md text-headline-md text-on-surface" data-plan-title>Final Lab</h3>
 <div class="mt-4 flex items-baseline">
-<span class="text-headline-lg font-bold">Custom</span>
+<span class="text-headline-lg font-bold" data-plan-price>Custom</span>
+<span class="text-on-surface-variant text-label-md" data-plan-unit></span>
 </div>
 </div>
-<ul class="space-y-4 mb-10 flex-grow">
+<ul class="space-y-4 mb-10 flex-grow" data-plan-features>
 <li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span> <span class="text-on-surface-variant">Full System Development</span></li>
 <li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span> <span class="text-on-surface-variant">Chapter 3-4 Support</span></li>
 <li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span> <span class="text-on-surface-variant">Unlimited Revisions</span></li>
 </ul>
-<button class="w-full py-4 rounded-lg bg-secondary-container text-primary font-bold hover:bg-primary hover:text-white transition-all">Konsultasi Custom</button>
+<button class="w-full py-4 rounded-lg bg-secondary-container text-primary font-bold hover:bg-primary hover:text-white transition-all" data-plan-button>Konsultasi Custom</button>
 </div>
 </div>
 </div>
@@ -234,4 +235,156 @@ transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 transform: translateY(-8px);
 }
 </style>
+@endpush
+
+@push('scripts')
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var pricingModes = {
+        project: {
+            starter: {
+                eyebrow: 'Daily Tasks',
+                title: 'Starter Lab',
+                price: 'Rp 150k - Rp 300k',
+                unit: '/project',
+                features: [
+                    'Landing page tugas kuliah',
+                    'Debug tampilan sederhana',
+                    '1x revisi ringan'
+                ],
+                button: 'Ambil Paket Starter'
+            },
+            pro: {
+                eyebrow: 'Project Intensive',
+                title: 'Pro Lab',
+                price: 'Rp 300k - Rp 1jt',
+                unit: '/project',
+                features: [
+                    'Full CRUD System',
+                    'Database Design (ERD)',
+                    'Mentoring via Zoom 60min',
+                    'Code Explainer Docs'
+                ],
+                button: 'Ambil Paket Project'
+            },
+            final: {
+                eyebrow: 'Thesis / Capstone',
+                title: 'Final Lab',
+                price: 'Custom',
+                unit: '',
+                features: [
+                    'Full System Development',
+                    'Chapter 3-4 Support',
+                    'Unlimited Revisions'
+                ],
+                button: 'Konsultasi Custom'
+            }
+        },
+        hourly: {
+            starter: {
+                eyebrow: 'Quick Fix',
+                title: 'Starter Mentoring',
+                price: 'Rp 100k',
+                unit: '/jam',
+                features: [
+                    'Styling CSS/HTML Only',
+                    'Simple Algorithm Debug',
+                    '1x follow-up chat'
+                ],
+                button: 'Ambil Jam Mentoring'
+            },
+            pro: {
+                eyebrow: 'Code Review',
+                title: 'Pro Mentoring',
+                price: 'Rp 150k',
+                unit: '/jam',
+                features: [
+                    'Debug Laravel/Node/React',
+                    'Review struktur database',
+                    'Zoom mentoring 60min',
+                    'Catatan langkah perbaikan'
+                ],
+                button: 'Booking Sesi Pro'
+            },
+            final: {
+                eyebrow: 'Intensive Session',
+                title: 'Final Mentoring',
+                price: 'Custom',
+                unit: '/sesi',
+                features: [
+                    'Bedah proyek akhir atau skripsi',
+                    'Roadmap pengerjaan bertahap',
+                    'Review laporan teknis'
+                ],
+                button: 'Konsultasi Jadwal'
+            }
+        }
+    };
+
+    var toggles = document.querySelectorAll('[data-pricing-toggle]');
+    var cards = document.querySelectorAll('[data-pricing-card]');
+
+    function createFeatureItem(text, isStrong) {
+        var item = document.createElement('li');
+        item.className = 'flex items-center gap-3';
+
+        var icon = document.createElement('span');
+        icon.className = 'material-symbols-outlined text-primary text-[20px]';
+        icon.textContent = 'check_circle';
+
+        var label = document.createElement('span');
+        label.className = isStrong ? 'text-on-surface-variant font-bold' : 'text-on-surface-variant';
+        label.textContent = text;
+
+        item.appendChild(icon);
+        item.appendChild(label);
+
+        return item;
+    }
+
+    function setPricingMode(mode) {
+        var activeMode = pricingModes[mode] ? mode : 'project';
+
+        toggles.forEach(function (button) {
+            var isActive = button.dataset.pricingToggle === activeMode;
+
+            button.classList.toggle('bg-primary', isActive);
+            button.classList.toggle('text-white', isActive);
+            button.classList.toggle('font-bold', isActive);
+            button.classList.toggle('text-on-surface-variant', !isActive);
+            button.classList.toggle('hover:text-primary', !isActive);
+            button.setAttribute('aria-selected', String(isActive));
+        });
+
+        cards.forEach(function (card) {
+            var plan = pricingModes[activeMode][card.dataset.pricingCard];
+
+            if (!plan) {
+                return;
+            }
+
+            card.querySelector('[data-plan-eyebrow]').textContent = plan.eyebrow;
+            card.querySelector('[data-plan-title]').textContent = plan.title;
+            card.querySelector('[data-plan-price]').textContent = plan.price;
+            card.querySelector('[data-plan-unit]').textContent = plan.unit;
+            card.querySelector('[data-plan-button]').textContent = plan.button;
+
+            var featureList = card.querySelector('[data-plan-features]');
+            featureList.replaceChildren();
+
+            plan.features.forEach(function (feature, index) {
+                featureList.appendChild(createFeatureItem(feature, card.dataset.pricingCard === 'pro' && index === 0));
+            });
+        });
+    }
+
+    toggles.forEach(function (button) {
+        button.addEventListener('click', function () {
+            setPricingMode(button.dataset.pricingToggle);
+        });
+    });
+
+    setPricingMode('project');
+});
+</script>
 @endpush
