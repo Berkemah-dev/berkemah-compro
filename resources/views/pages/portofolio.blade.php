@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('title', 'Portofolio - Berkemah Team')
-@section('meta_description', 'Portofolio Berkemah Team berisi contoh pekerjaan website, platform BISA, website Klinik Gading Mitra Medika, website wisata Pasabar, landing page All Role AI, dashboard HRIS, dashboard SOP, aplikasi keuangan Moneyku, dan solusi operasional digital.')
-@section('meta_keywords', 'portofolio Berkemah Team, BISA platform, Gading Mitra Medika, Pasabar, All Role AI, landing page AI, Moneyku, aplikasi keuangan, website wisata, HRIS dashboard, dashboard SOP, website klinik, software custom')
+@section('meta_description', 'Portofolio Berkemah Team berisi contoh pekerjaan website, platform BISA, website Klinik Gading Mitra Medika, website PPDB Al Azhar, website wisata Pasabar, landing page All Role AI, dashboard HRIS, dashboard SOP, aplikasi keuangan Moneyku, dan solusi operasional digital.')
+@section('meta_keywords', 'portofolio Berkemah Team, BISA platform, Gading Mitra Medika, PPDB Al Azhar, website PPDB, Pasabar, All Role AI, landing page AI, Moneyku, aplikasi keuangan, website wisata, HRIS dashboard, dashboard SOP, website klinik, software custom')
 
 @section('content')
 <main class="pt-32">
@@ -82,6 +82,7 @@ Lihat Karya
 <button type="button" data-portfolio-option="platform" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">Platform <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
 <button type="button" data-portfolio-option="klinik" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">Klinik <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
 <button type="button" data-portfolio-option="website" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">Website <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
+<button type="button" data-portfolio-option="ppdb" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">PPDB <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
 <button type="button" data-portfolio-option="wisata" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">Wisata <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
 <button type="button" data-portfolio-option="ai" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">AI <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
 <button type="button" data-portfolio-option="hris" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">HRIS <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
@@ -129,6 +130,26 @@ Lihat Karya
 <div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
 <p><span class="font-bold text-primary">24 Jam</span><br><span class="text-on-surface-variant">UGD &amp; rawat inap</span></p>
 <p><span class="font-bold text-primary">WhatsApp</span><br><span class="text-on-surface-variant">kontak cepat</span></p>
+</div>
+</div>
+</article>
+
+<article data-portfolio-card data-categories="website ppdb" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<div class="h-56 overflow-hidden">
+<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Website PPDB Al Azhar Syifa Budi Parahyangan landing page preview" src="{{ asset('assets/al azhar.png') }}"/>
+</div>
+<div class="space-y-5 p-7">
+<div class="flex flex-wrap gap-2">
+<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">PPDB</span>
+<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">School Admission</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Website PPDB Al Azhar</h3>
+<p class="mt-3 text-body-md text-on-surface-variant">Landing page penerimaan peserta didik baru dengan informasi sekolah, alur pendaftaran, CTA daftar, login PPDB, dan cek status pendaftaran.</p>
+</div>
+<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
+<p><span class="font-bold text-primary">Daftar</span><br><span class="text-on-surface-variant">CTA utama</span></p>
+<p><span class="font-bold text-primary">Status</span><br><span class="text-on-surface-variant">cek pendaftaran</span></p>
 </div>
 </div>
 </article>
