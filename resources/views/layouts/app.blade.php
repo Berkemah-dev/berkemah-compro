@@ -167,6 +167,19 @@ tailwind.config = {
     @stack('styles')
 </head>
 <body class="overflow-x-hidden bg-surface text-on-surface font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
+
+<!-- Preloader Berkemah -->
+<div id="berkemah-preloader" class="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-surface transition-opacity duration-500">
+    <div class="relative flex items-center justify-center w-24 h-24">
+        <!-- Animasi Spinner -->
+        <div class="absolute inset-0 rounded-full border-[3px] border-primary-fixed"></div>
+        <div class="absolute inset-0 rounded-full border-[3px] border-primary border-t-transparent animate-spin" style="animation-duration: 1s;"></div>
+        <!-- Logo -->
+        <div class="z-10 flex items-center justify-center w-16 h-16 overflow-hidden bg-white border shadow-sm rounded-2xl border-outline-variant/50">
+            <img src="{{ asset('assets/foto-berkemah.png') }}" alt="Memuat..." class="object-cover w-full h-full">
+        </div>
+    </div>
+</div>
 <nav class="fixed top-0 w-full z-50 border-b border-white/50 bg-surface/85 backdrop-blur-md glass-header shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
     <div class="flex items-center justify-between h-20 gap-4 px-margin-mobile md:px-margin-desktop">
         <a href="{{ route('home') }}" class="flex items-center min-w-0 gap-3">
@@ -253,6 +266,16 @@ tailwind.config = {
 
 @stack('scripts')
 <script>
+window.addEventListener('load', function() {
+    var preloader = document.getElementById('berkemah-preloader');
+    if (preloader) {
+        preloader.style.opacity = '0';
+        setTimeout(function() {
+            preloader.style.display = 'none';
+        }, 500);
+    }
+});
+
 document.addEventListener('DOMContentLoaded', function() {
     var nav = document.querySelector('nav');
     var menuButton = document.getElementById('mobile-menu-button');
