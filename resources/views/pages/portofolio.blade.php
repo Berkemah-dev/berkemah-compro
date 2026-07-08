@@ -88,167 +88,7 @@ Lihat Karya
 </div>
 
 <div id="portfolio-grid" class="grid grid-cols-1 gap-gutter md:grid-cols-2 xl:grid-cols-3">
-<article data-portfolio-card data-categories="platform dashboard business" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
-<div class="h-56 overflow-hidden">
-<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="BISA platform login and operational approval dashboard preview" src="{{ asset('assets/bisa-platform.png') }}"/>
-</div>
-<div class="space-y-5 p-7">
-<div class="flex flex-wrap gap-2">
-<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Platform</span>
-<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Enterprise Dashboard</span>
-</div>
-<div>
-<h3 class="font-headline-md text-headline-md text-on-surface">BISA Platform Operasional</h3>
-<p class="mt-3 text-body-md text-on-surface-variant">Sistem internal untuk mengelola permintaan, persetujuan, KPI, pelaporan, dan akses pengguna dalam satu dashboard.</p>
-</div>
-<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
-<p><span class="font-bold text-primary">SSO</span><br><span class="text-on-surface-variant">akses aman</span></p>
-<p><span class="font-bold text-primary">Real-time</span><br><span class="text-on-surface-variant">approval &amp; KPI</span></p>
-</div>
-</div>
-</article>
-
-<article data-portfolio-card data-categories="website platform" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
-<div class="h-56 overflow-hidden">
-<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Berkemah LMS landing page preview with programming course hero section" src="{{ asset('assets/lms.png') }}"/>
-</div>
-<div class="space-y-5 p-7">
-<div class="flex flex-wrap gap-2">
-<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">LMS</span>
-<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Learning Platform</span>
-</div>
-<div>
-<h3 class="font-headline-md text-headline-md text-on-surface">LMS Berkemah</h3>
-<p class="mt-3 text-body-md text-on-surface-variant">Platform belajar online untuk menampilkan kelas, course, membership, payment, login, registrasi, tracking progres, kuis, dan sertifikat.</p>
-</div>
-<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
-<p><span class="font-bold text-primary">Course</span><br><span class="text-on-surface-variant">kelas &amp; modul</span></p>
-<p><span class="font-bold text-primary">Progress</span><br><span class="text-on-surface-variant">kuis &amp; sertifikat</span></p>
-</div>
-</div>
-</article>
-
-<article data-portfolio-card data-categories="dashboard business" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
-<div class="h-56 overflow-hidden">
-<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="CargoGate logistics management dashboard preview with shipment revenue and fleet metrics" src="{{ asset('assets/cargogate.png') }}"/>
-</div>
-<div class="space-y-5 p-7">
-<div class="flex flex-wrap gap-2">
-<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Logistik</span>
-<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Management Dashboard</span>
-</div>
-<div>
-<h3 class="font-headline-md text-headline-md text-on-surface">Dashboard CargoGate</h3>
-<p class="mt-3 text-body-md text-on-surface-variant">Dashboard logistik untuk memantau revenue, shipment, armada aktif, AR/AP, status job, master data, dan operasional pengiriman.</p>
-</div>
-<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
-<p><span class="font-bold text-primary">Shipment</span><br><span class="text-on-surface-variant">status pekerjaan</span></p>
-<p><span class="font-bold text-primary">Armada</span><br><span class="text-on-surface-variant">fleet aktif</span></p>
-</div>
-</div>
-</article>
-
-<article data-portfolio-card data-categories="dashboard platform business" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
-<div class="h-56 overflow-hidden">
-<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Dashboard Power BI reporting and control analytics portal preview" src="{{ asset('assets/poerbi.png') }}"/>
-</div>
-<div class="space-y-5 p-7">
-<div class="flex flex-wrap gap-2">
-<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Power BI</span>
-<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Reporting Dashboard</span>
-</div>
-<div>
-<h3 class="font-headline-md text-headline-md text-on-surface">Dashboard Power BI</h3>
-<p class="mt-3 text-body-md text-on-surface-variant">Portal reporting dan analytics untuk akses laporan, pemantauan performa, kontrol data internal, login aman, dan jejak audit terintegrasi.</p>
-</div>
-<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
-<p><span class="font-bold text-primary">Reporting</span><br><span class="text-on-surface-variant">laporan terpusat</span></p>
-<p><span class="font-bold text-primary">Analytics</span><br><span class="text-on-surface-variant">kontrol kinerja</span></p>
-</div>
-</div>
-</article>
-
-<article data-portfolio-card data-categories="dashboard business" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
-<div class="h-56 overflow-hidden">
-<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Showroom Mechanics sales otomotif system login preview for vehicle stock and offer management" src="{{ asset('assets/sales-otomotif.png') }}"/>
-</div>
-<div class="space-y-5 p-7">
-<div class="flex flex-wrap gap-2">
-<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Otomotif</span>
-<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Sales Dashboard</span>
-</div>
-<div>
-<h3 class="font-headline-md text-headline-md text-on-surface">Showroom Mechanics</h3>
-<p class="mt-3 text-body-md text-on-surface-variant">Sistem sales otomotif untuk mengelola stok kendaraan, harga jual, simulasi cicilan, penawaran digital, margin, dan follow-up customer.</p>
-</div>
-<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
-<p><span class="font-bold text-primary">Stok</span><br><span class="text-on-surface-variant">kendaraan</span></p>
-<p><span class="font-bold text-primary">Penawaran</span><br><span class="text-on-surface-variant">digital cepat</span></p>
-</div>
-</div>
-</article>
-
-<article data-portfolio-card data-categories="platform business" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
-<div class="h-56 overflow-hidden">
-<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Screening Mechanic assessment platform login preview with secure test and CMS admin" src="{{ asset('assets/screening-mechanic.png') }}"/>
-</div>
-<div class="space-y-5 p-7">
-<div class="flex flex-wrap gap-2">
-<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Assessment</span>
-<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Mechanic Test</span>
-</div>
-<div>
-<h3 class="font-headline-md text-headline-md text-on-surface">Screening Mechanic</h3>
-<p class="mt-3 text-body-md text-on-surface-variant">Platform assessment mechanic untuk login peserta dan admin, random soal, CMS admin, secure test, serta pemantauan hasil screening.</p>
-</div>
-<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
-<p><span class="font-bold text-primary">Random Soal</span><br><span class="text-on-surface-variant">assessment tertib</span></p>
-<p><span class="font-bold text-primary">CMS Admin</span><br><span class="text-on-surface-variant">kelola test</span></p>
-</div>
-</div>
-</article>
-
-<article data-portfolio-card data-categories="website platform" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
-<div class="h-56 overflow-hidden">
-<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Andalan Career recruitment landing page preview with mining team hero section" src="{{ asset('assets/career.png') }}"/>
-</div>
-<div class="space-y-5 p-7">
-<div class="flex flex-wrap gap-2">
-<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Career</span>
-<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Recruitment Portal</span>
-</div>
-<div>
-<h3 class="font-headline-md text-headline-md text-on-surface">Website Career Andalan</h3>
-<p class="mt-3 text-body-md text-on-surface-variant">Portal karier untuk menampilkan lowongan, pencarian posisi, pendaftaran kandidat, login pelamar, dan informasi FAQ dalam satu halaman yang rapi.</p>
-</div>
-<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
-<p><span class="font-bold text-primary">Lowongan</span><br><span class="text-on-surface-variant">posisi terbuka</span></p>
-<p><span class="font-bold text-primary">Daftar</span><br><span class="text-on-surface-variant">kandidat online</span></p>
-</div>
-</div>
-</article>
-
-<article data-portfolio-card data-categories="website" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
-<div class="h-56 overflow-hidden">
-<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Website Klinik Gading Mitra Medika landing page preview" src="{{ asset('assets/gmm.png') }}"/>
-</div>
-<div class="space-y-5 p-7">
-<div class="flex flex-wrap gap-2">
-<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Klinik</span>
-<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Company Profile</span>
-</div>
-<div>
-<h3 class="font-headline-md text-headline-md text-on-surface">Website Klinik Gading Mitra Medika</h3>
-<p class="mt-3 text-body-md text-on-surface-variant">Landing page klinik dengan informasi layanan, CTA WhatsApp, highlight layanan 24 jam, dan tampilan yang mudah dibaca pasien.</p>
-</div>
-<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
-<p><span class="font-bold text-primary">24 Jam</span><br><span class="text-on-surface-variant">UGD &amp; rawat inap</span></p>
-<p><span class="font-bold text-primary">WhatsApp</span><br><span class="text-on-surface-variant">kontak cepat</span></p>
-</div>
-</div>
-</article>
-
-<article data-portfolio-card data-categories="website platform" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<a href="https://brown-tarsier-106199.hostingersite.com/" target="_blank" data-portfolio-card data-categories="website platform" class="block overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-all hover:-translate-y-2 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
 <div class="h-56 overflow-hidden">
 <img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Website PPDB Al Azhar Syifa Budi Parahyangan landing page preview" src="{{ asset('assets/al azhar.png') }}"/>
 </div>
@@ -257,58 +97,21 @@ Lihat Karya
 <span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">PPDB</span>
 <span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">School Admission</span>
 </div>
+<div class="group flex items-start justify-between gap-4">
 <div>
-<h3 class="font-headline-md text-headline-md text-on-surface">Website PPDB Al Azhar</h3>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">Website PPDB Al Azhar</h3>
 <p class="mt-3 text-body-md text-on-surface-variant">Landing page penerimaan peserta didik baru dengan informasi sekolah, alur pendaftaran, CTA daftar, login PPDB, dan cek status pendaftaran.</p>
+</div>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors mt-1">open_in_new</span>
 </div>
 <div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
 <p><span class="font-bold text-primary">Daftar</span><br><span class="text-on-surface-variant">CTA utama</span></p>
 <p><span class="font-bold text-primary">Status</span><br><span class="text-on-surface-variant">cek pendaftaran</span></p>
 </div>
 </div>
-</article>
+</a>
 
-<article data-portfolio-card data-categories="website" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
-<div class="h-56 overflow-hidden">
-<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Pasabar travel landing page preview for West Java destinations" src="{{ asset('assets/pasabar.png') }}"/>
-</div>
-<div class="space-y-5 p-7">
-<div class="flex flex-wrap gap-2">
-<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Wisata</span>
-<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Landing Page</span>
-</div>
-<div>
-<h3 class="font-headline-md text-headline-md text-on-surface">Website Wisata Pasabar</h3>
-<p class="mt-3 text-body-md text-on-surface-variant">Landing page untuk menampilkan destinasi wisata, hotel, restoran, dan ajakan eksplorasi tempat menarik di Jawa Barat.</p>
-</div>
-<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
-<p><span class="font-bold text-primary">Explore</span><br><span class="text-on-surface-variant">CTA utama</span></p>
-<p><span class="font-bold text-primary">Travel</span><br><span class="text-on-surface-variant">wisata &amp; kuliner</span></p>
-</div>
-</div>
-</article>
-
-<article data-portfolio-card data-categories="website" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
-<div class="h-56 overflow-hidden">
-<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="All Role AI landing page preview with hero section" src="{{ asset('assets/all role ai.png') }}"/>
-</div>
-<div class="space-y-5 p-7">
-<div class="flex flex-wrap gap-2">
-<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">AI</span>
-<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Landing Page</span>
-</div>
-<div>
-<h3 class="font-headline-md text-headline-md text-on-surface">Landing Page All Role AI</h3>
-<p class="mt-3 text-body-md text-on-surface-variant">Landing page bertema AI dengan hero section yang kuat, navigasi sederhana, CTA chat, dan visual gelap yang fokus ke produk.</p>
-</div>
-<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
-<p><span class="font-bold text-primary">AI Chat</span><br><span class="text-on-surface-variant">CTA utama</span></p>
-<p><span class="font-bold text-primary">Hero</span><br><span class="text-on-surface-variant">landing page</span></p>
-</div>
-</div>
-</article>
-
-<article data-portfolio-card data-categories="dashboard platform business" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<a href="https://salmon-octopus-221724.hostingersite.com/login" target="_blank" data-portfolio-card data-categories="dashboard platform business" class="block overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-all hover:-translate-y-2 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
 <div class="h-56 overflow-hidden">
 <img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="HRIS dashboard admin preview with employee metrics and analytics charts" src="{{ asset('assets/hris.png') }}"/>
 </div>
@@ -317,18 +120,251 @@ Lihat Karya
 <span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">HRIS</span>
 <span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Admin Dashboard</span>
 </div>
+<div class="group flex items-start justify-between gap-4">
 <div>
-<h3 class="font-headline-md text-headline-md text-on-surface">Dashboard HRIS Perusahaan</h3>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">Dashboard HRIS Perusahaan</h3>
 <p class="mt-3 text-body-md text-on-surface-variant">Dashboard admin untuk memantau data karyawan, absensi, cuti, reimbursement, payroll, KPI, dan laporan analitik dalam satu layar.</p>
+</div>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors mt-1">open_in_new</span>
 </div>
 <div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
 <p><span class="font-bold text-primary">32 karyawan</span><br><span class="text-on-surface-variant">data terpantau</span></p>
 <p><span class="font-bold text-primary">Analitik</span><br><span class="text-on-surface-variant">grafik real-time</span></p>
 </div>
 </div>
-</article>
+</a>
 
-<article data-portfolio-card data-categories="dashboard business" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<a href="https://orchid-llama-232399.hostingersite.com/login" target="_blank" data-portfolio-card data-categories="platform dashboard business" class="block overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-all hover:-translate-y-2 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+<div class="h-56 overflow-hidden">
+<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="BISA platform login and operational approval dashboard preview" src="{{ asset('assets/bisa-platform.png') }}"/>
+</div>
+<div class="space-y-5 p-7">
+<div class="flex flex-wrap gap-2">
+<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Platform</span>
+<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Enterprise Dashboard</span>
+</div>
+<div class="group flex items-start justify-between gap-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">BISA Platform Operasional</h3>
+<p class="mt-3 text-body-md text-on-surface-variant">Sistem internal untuk mengelola permintaan, persetujuan, KPI, pelaporan, dan akses pengguna dalam satu dashboard.</p>
+</div>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors mt-1">open_in_new</span>
+</div>
+<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
+<p><span class="font-bold text-primary">SSO</span><br><span class="text-on-surface-variant">akses aman</span></p>
+<p><span class="font-bold text-primary">Real-time</span><br><span class="text-on-surface-variant">approval &amp; KPI</span></p>
+</div>
+</div>
+</a>
+
+<a href="https://deeppink-deer-984905.hostingersite.com/login" target="_blank" data-portfolio-card data-categories="dashboard business" class="block overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-all hover:-translate-y-2 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+<div class="h-56 overflow-hidden">
+<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="CargoGate logistics management dashboard preview with shipment revenue and fleet metrics" src="{{ asset('assets/cargogate.png') }}"/>
+</div>
+<div class="space-y-5 p-7">
+<div class="flex flex-wrap gap-2">
+<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Logistik</span>
+<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Management Dashboard</span>
+</div>
+<div class="group flex items-start justify-between gap-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">Dashboard CargoGate</h3>
+<p class="mt-3 text-body-md text-on-surface-variant">Dashboard logistik untuk memantau revenue, shipment, armada aktif, AR/AP, status job, master data, dan operasional pengiriman.</p>
+</div>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors mt-1">open_in_new</span>
+</div>
+<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
+<p><span class="font-bold text-primary">Shipment</span><br><span class="text-on-surface-variant">status pekerjaan</span></p>
+<p><span class="font-bold text-primary">Armada</span><br><span class="text-on-surface-variant">fleet aktif</span></p>
+</div>
+</div>
+</a>
+
+<a href="https://klinikgadingmitramedika.com/" target="_blank" data-portfolio-card data-categories="website" class="block overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-all hover:-translate-y-2 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+<div class="h-56 overflow-hidden">
+<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Website Klinik Gading Mitra Medika landing page preview" src="{{ asset('assets/gmm.png') }}"/>
+</div>
+<div class="space-y-5 p-7">
+<div class="flex flex-wrap gap-2">
+<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Klinik</span>
+<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Company Profile</span>
+</div>
+<div class="group flex items-start justify-between gap-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">Website Klinik Gading Mitra Medika</h3>
+<p class="mt-3 text-body-md text-on-surface-variant">Landing page klinik dengan informasi layanan, CTA WhatsApp, highlight layanan 24 jam, dan tampilan yang mudah dibaca pasien.</p>
+</div>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors mt-1">open_in_new</span>
+</div>
+<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
+<p><span class="font-bold text-primary">24 Jam</span><br><span class="text-on-surface-variant">UGD &amp; rawat inap</span></p>
+<p><span class="font-bold text-primary">WhatsApp</span><br><span class="text-on-surface-variant">kontak cepat</span></p>
+</div>
+</div>
+</a>
+
+<a href="https://karir-andalan.com/" target="_blank" data-portfolio-card data-categories="website platform" class="block overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-all hover:-translate-y-2 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+<div class="h-56 overflow-hidden">
+<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Andalan Career recruitment landing page preview with mining team hero section" src="{{ asset('assets/career.png') }}"/>
+</div>
+<div class="space-y-5 p-7">
+<div class="flex flex-wrap gap-2">
+<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Career</span>
+<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Recruitment Portal</span>
+</div>
+<div class="group flex items-start justify-between gap-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">Website Career Andalan</h3>
+<p class="mt-3 text-body-md text-on-surface-variant">Portal karier untuk menampilkan lowongan, pencarian posisi, pendaftaran kandidat, login pelamar, dan informasi FAQ dalam satu halaman yang rapi.</p>
+</div>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors mt-1">open_in_new</span>
+</div>
+<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
+<p><span class="font-bold text-primary">Lowongan</span><br><span class="text-on-surface-variant">posisi terbuka</span></p>
+<p><span class="font-bold text-primary">Daftar</span><br><span class="text-on-surface-variant">kandidat online</span></p>
+</div>
+</div>
+</a>
+
+<a href="https://beige-coyote-664406.hostingersite.com/" target="_blank" data-portfolio-card data-categories="website platform" class="block overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-all hover:-translate-y-2 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+<div class="h-56 overflow-hidden">
+<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Berkemah LMS landing page preview with programming course hero section" src="{{ asset('assets/lms.png') }}"/>
+</div>
+<div class="space-y-5 p-7">
+<div class="flex flex-wrap gap-2">
+<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">LMS</span>
+<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Learning Platform</span>
+</div>
+<div class="group flex items-start justify-between gap-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">LMS Berkemah</h3>
+<p class="mt-3 text-body-md text-on-surface-variant">Platform belajar online untuk menampilkan kelas, course, membership, payment, login, registrasi, tracking progres, kuis, dan sertifikat.</p>
+</div>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors mt-1">open_in_new</span>
+</div>
+<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
+<p><span class="font-bold text-primary">Course</span><br><span class="text-on-surface-variant">kelas &amp; modul</span></p>
+<p><span class="font-bold text-primary">Progress</span><br><span class="text-on-surface-variant">kuis &amp; sertifikat</span></p>
+</div>
+</div>
+</a>
+
+<a href="https://darkslategray-porcupine-152721.hostingersite.com/login" target="_blank" data-portfolio-card data-categories="dashboard platform business" class="block overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-all hover:-translate-y-2 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+<div class="h-56 overflow-hidden">
+<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Dashboard Power BI reporting and control analytics portal preview" src="{{ asset('assets/poerbi.png') }}"/>
+</div>
+<div class="space-y-5 p-7">
+<div class="flex flex-wrap gap-2">
+<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Power BI</span>
+<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Reporting Dashboard</span>
+</div>
+<div class="group flex items-start justify-between gap-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">Dashboard Power BI</h3>
+<p class="mt-3 text-body-md text-on-surface-variant">Portal reporting dan analytics untuk akses laporan, pemantauan performa, kontrol data internal, login aman, dan jejak audit terintegrasi.</p>
+</div>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors mt-1">open_in_new</span>
+</div>
+<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
+<p><span class="font-bold text-primary">Reporting</span><br><span class="text-on-surface-variant">laporan terpusat</span></p>
+<p><span class="font-bold text-primary">Analytics</span><br><span class="text-on-surface-variant">kontrol kinerja</span></p>
+</div>
+</div>
+</a>
+
+<a href="https://ghostwhite-lark-592992.hostingersite.com/login" target="_blank" data-portfolio-card data-categories="dashboard business" class="block overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-all hover:-translate-y-2 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+<div class="h-56 overflow-hidden">
+<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Showroom Mechanics sales otomotif system login preview for vehicle stock and offer management" src="{{ asset('assets/sales-otomotif.png') }}"/>
+</div>
+<div class="space-y-5 p-7">
+<div class="flex flex-wrap gap-2">
+<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Otomotif</span>
+<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Sales Dashboard</span>
+</div>
+<div class="group flex items-start justify-between gap-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">Showroom Mechanics</h3>
+<p class="mt-3 text-body-md text-on-surface-variant">Sistem sales otomotif untuk mengelola stok kendaraan, harga jual, simulasi cicilan, penawaran digital, margin, dan follow-up customer.</p>
+</div>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors mt-1">open_in_new</span>
+</div>
+<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
+<p><span class="font-bold text-primary">Stok</span><br><span class="text-on-surface-variant">kendaraan</span></p>
+<p><span class="font-bold text-primary">Penawaran</span><br><span class="text-on-surface-variant">digital cepat</span></p>
+</div>
+</div>
+</a>
+
+<a href="https://lightskyblue-quail-167707.hostingersite.com/login" target="_blank" data-portfolio-card data-categories="platform business" class="block overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-all hover:-translate-y-2 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+<div class="h-56 overflow-hidden">
+<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Screening Mechanic assessment platform login preview with secure test and CMS admin" src="{{ asset('assets/screening-mechanic.png') }}"/>
+</div>
+<div class="space-y-5 p-7">
+<div class="flex flex-wrap gap-2">
+<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Assessment</span>
+<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Mechanic Test</span>
+</div>
+<div class="group flex items-start justify-between gap-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">Screening Mechanic</h3>
+<p class="mt-3 text-body-md text-on-surface-variant">Platform assessment mechanic untuk login peserta dan admin, random soal, CMS admin, secure test, serta pemantauan hasil screening.</p>
+</div>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors mt-1">open_in_new</span>
+</div>
+<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
+<p><span class="font-bold text-primary">Random Soal</span><br><span class="text-on-surface-variant">assessment tertib</span></p>
+<p><span class="font-bold text-primary">CMS Admin</span><br><span class="text-on-surface-variant">kelola test</span></p>
+</div>
+</div>
+</a>
+
+<a href="https://pasabar.my.id" target="_blank" data-portfolio-card data-categories="website" class="block overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-all hover:-translate-y-2 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+<div class="h-56 overflow-hidden">
+<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Pasabar travel landing page preview for West Java destinations" src="{{ asset('assets/pasabar.png') }}"/>
+</div>
+<div class="space-y-5 p-7">
+<div class="flex flex-wrap gap-2">
+<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Wisata</span>
+<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Landing Page</span>
+</div>
+<div class="group flex items-start justify-between gap-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">Website Wisata Pasabar</h3>
+<p class="mt-3 text-body-md text-on-surface-variant">Landing page untuk menampilkan destinasi wisata, hotel, restoran, dan ajakan eksplorasi tempat menarik di Jawa Barat.</p>
+</div>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors mt-1">open_in_new</span>
+</div>
+<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
+<p><span class="font-bold text-primary">Explore</span><br><span class="text-on-surface-variant">CTA utama</span></p>
+<p><span class="font-bold text-primary">Travel</span><br><span class="text-on-surface-variant">wisata &amp; kuliner</span></p>
+</div>
+</div>
+</a>
+
+<a href="https://allrole-ai.github.io/" target="_blank" data-portfolio-card data-categories="website" class="block overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-all hover:-translate-y-2 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+<div class="h-56 overflow-hidden">
+<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="All Role AI landing page preview with hero section" src="{{ asset('assets/all role ai.png') }}"/>
+</div>
+<div class="space-y-5 p-7">
+<div class="flex flex-wrap gap-2">
+<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">AI</span>
+<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Landing Page</span>
+</div>
+<div class="group flex items-start justify-between gap-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">Landing Page All Role AI</h3>
+<p class="mt-3 text-body-md text-on-surface-variant">Landing page bertema AI dengan hero section yang kuat, navigasi sederhana, CTA chat, dan visual gelap yang fokus ke produk.</p>
+</div>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors mt-1">open_in_new</span>
+</div>
+<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
+<p><span class="font-bold text-primary">AI Chat</span><br><span class="text-on-surface-variant">CTA utama</span></p>
+<p><span class="font-bold text-primary">Hero</span><br><span class="text-on-surface-variant">landing page</span></p>
+</div>
+</div>
+</a>
+
+<a href="https://darkred-giraffe-249836.hostingersite.com/login" target="_blank" data-portfolio-card data-categories="dashboard business" class="block overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-all hover:-translate-y-2 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
 <div class="h-56 overflow-hidden">
 <img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="SOP and CheckFlow dashboard preview for PT DIPSOL INDONESIA" src="{{ asset('assets/sop.png') }}"/>
 </div>
@@ -337,18 +373,21 @@ Lihat Karya
 <span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">SOP</span>
 <span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">CheckFlow</span>
 </div>
+<div class="group flex items-start justify-between gap-4">
 <div>
-<h3 class="font-headline-md text-headline-md text-on-surface">Dashboard SOP &amp; CheckFlow</h3>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">Dashboard SOP &amp; CheckFlow</h3>
 <p class="mt-3 text-body-md text-on-surface-variant">Dashboard untuk mengelola SOP, template, check sheet, approval, QR center, dan ringkasan aktivitas produksi harian.</p>
+</div>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors mt-1">open_in_new</span>
 </div>
 <div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
 <p><span class="font-bold text-primary">6 SOP</span><br><span class="text-on-surface-variant">status terpantau</span></p>
 <p><span class="font-bold text-primary">Approval</span><br><span class="text-on-surface-variant">tindakan pending</span></p>
 </div>
 </div>
-</article>
+</a>
 
-<article data-portfolio-card data-categories="platform business" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<a href="https://lavenderblush-cod-169511.hostingersite.com/dashboard" target="_blank" data-portfolio-card data-categories="platform business" class="block overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-all hover:-translate-y-2 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
 <div class="h-56 overflow-hidden">
 <img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Moneyku finance application login page preview" src="{{ asset('assets/moneyku.png') }}"/>
 </div>
@@ -357,16 +396,19 @@ Lihat Karya
 <span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Finance</span>
 <span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Money Management</span>
 </div>
+<div class="group flex items-start justify-between gap-4">
 <div>
-<h3 class="font-headline-md text-headline-md text-on-surface">Aplikasi Keuangan Moneyku</h3>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">Aplikasi Keuangan Moneyku</h3>
 <p class="mt-3 text-body-md text-on-surface-variant">Aplikasi pengelolaan uang dengan halaman login yang rapi, autentikasi pengguna, dan tampilan brand yang sederhana serta mudah dikenali.</p>
+</div>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors mt-1">open_in_new</span>
 </div>
 <div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
 <p><span class="font-bold text-primary">Login</span><br><span class="text-on-surface-variant">akses pengguna</span></p>
 <p><span class="font-bold text-primary">Finance</span><br><span class="text-on-surface-variant">kelola uang</span></p>
 </div>
 </div>
-</article>
+</a>
 
 {{--
 <article class="hidden overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2 md:col-span-2 xl:col-span-3">
