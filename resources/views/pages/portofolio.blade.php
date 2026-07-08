@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('title', 'Portofolio - Berkemah Team')
-@section('meta_description', 'Portofolio Berkemah Team berisi contoh pekerjaan website, platform BISA, website Klinik Gading Mitra Medika, website PPDB Al Azhar, website wisata Pasabar, landing page All Role AI, dashboard HRIS, dashboard SOP, aplikasi keuangan Moneyku, dan solusi operasional digital.')
-@section('meta_keywords', 'portofolio Berkemah Team, BISA platform, Gading Mitra Medika, PPDB Al Azhar, website PPDB, Pasabar, All Role AI, landing page AI, Moneyku, aplikasi keuangan, website wisata, HRIS dashboard, dashboard SOP, website klinik, software custom')
+@section('meta_description', 'Portofolio Berkemah Team berisi contoh pekerjaan website, platform BISA, LMS Berkemah, dashboard CargoGate, Dashboard Power BI, Showroom Mechanics, Screening Mechanic, website Klinik Gading Mitra Medika, website PPDB Al Azhar, website wisata Pasabar, portal career Andalan, landing page All Role AI, dashboard HRIS, dashboard SOP, aplikasi keuangan Moneyku, dan solusi operasional digital.')
+@section('meta_keywords', 'portofolio Berkemah Team, BISA platform, LMS Berkemah, learning management system, CargoGate, dashboard logistik, Dashboard Power BI, Power BI, reporting dashboard, Showroom Mechanics, sales otomotif, showroom otomotif, Screening Mechanic, assessment mechanic, platform assessment, Gading Mitra Medika, PPDB Al Azhar, website PPDB, Pasabar, portal career Andalan, website career, All Role AI, landing page AI, Moneyku, aplikasi keuangan, website wisata, HRIS dashboard, dashboard SOP, website klinik, software custom')
 
 @section('content')
 <main class="pt-32">
@@ -79,22 +79,16 @@ Lihat Karya
 </button>
 <div id="portfolio-filter-menu" class="absolute right-0 z-30 mt-3 hidden w-full overflow-hidden rounded-lg border border-outline-variant bg-white p-2 shadow-2xl" role="listbox" aria-label="Filter portofolio">
 <button type="button" data-portfolio-option="all" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-primary hover:bg-primary-fixed" role="option">Semua Portofolio <span class="material-symbols-outlined text-[18px]">check</span></button>
-<button type="button" data-portfolio-option="platform" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">Platform <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
-<button type="button" data-portfolio-option="klinik" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">Klinik <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
-<button type="button" data-portfolio-option="website" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">Website <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
-<button type="button" data-portfolio-option="ppdb" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">PPDB <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
-<button type="button" data-portfolio-option="wisata" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">Wisata <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
-<button type="button" data-portfolio-option="ai" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">AI <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
-<button type="button" data-portfolio-option="hris" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">HRIS <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
-<button type="button" data-portfolio-option="sop" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">SOP <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
-<button type="button" data-portfolio-option="finance" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">Finance <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
-<button type="button" data-portfolio-option="dashboard" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">Dashboard <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
+<button type="button" data-portfolio-option="website" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">Website &amp; Landing Page <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
+<button type="button" data-portfolio-option="dashboard" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">Dashboard &amp; Analytics <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
+<button type="button" data-portfolio-option="platform" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">Platform &amp; Portal <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
+<button type="button" data-portfolio-option="business" class="portfolio-option flex w-full items-center justify-between rounded-md px-4 py-3 text-left text-sm font-bold text-on-surface hover:bg-primary-fixed" role="option">Aplikasi Bisnis <span class="material-symbols-outlined hidden text-[18px] text-primary">check</span></button>
 </div>
 </div>
 </div>
 
 <div id="portfolio-grid" class="grid grid-cols-1 gap-gutter md:grid-cols-2 xl:grid-cols-3">
-<article data-portfolio-card data-categories="platform dashboard" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<article data-portfolio-card data-categories="platform dashboard business" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
 <div class="h-56 overflow-hidden">
 <img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="BISA platform login and operational approval dashboard preview" src="{{ asset('assets/bisa-platform.png') }}"/>
 </div>
@@ -114,7 +108,127 @@ Lihat Karya
 </div>
 </article>
 
-<article data-portfolio-card data-categories="klinik website" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<article data-portfolio-card data-categories="website platform" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<div class="h-56 overflow-hidden">
+<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Berkemah LMS landing page preview with programming course hero section" src="{{ asset('assets/lms.png') }}"/>
+</div>
+<div class="space-y-5 p-7">
+<div class="flex flex-wrap gap-2">
+<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">LMS</span>
+<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Learning Platform</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface">LMS Berkemah</h3>
+<p class="mt-3 text-body-md text-on-surface-variant">Platform belajar online untuk menampilkan kelas, course, membership, payment, login, registrasi, tracking progres, kuis, dan sertifikat.</p>
+</div>
+<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
+<p><span class="font-bold text-primary">Course</span><br><span class="text-on-surface-variant">kelas &amp; modul</span></p>
+<p><span class="font-bold text-primary">Progress</span><br><span class="text-on-surface-variant">kuis &amp; sertifikat</span></p>
+</div>
+</div>
+</article>
+
+<article data-portfolio-card data-categories="dashboard business" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<div class="h-56 overflow-hidden">
+<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="CargoGate logistics management dashboard preview with shipment revenue and fleet metrics" src="{{ asset('assets/cargogate.png') }}"/>
+</div>
+<div class="space-y-5 p-7">
+<div class="flex flex-wrap gap-2">
+<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Logistik</span>
+<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Management Dashboard</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Dashboard CargoGate</h3>
+<p class="mt-3 text-body-md text-on-surface-variant">Dashboard logistik untuk memantau revenue, shipment, armada aktif, AR/AP, status job, master data, dan operasional pengiriman.</p>
+</div>
+<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
+<p><span class="font-bold text-primary">Shipment</span><br><span class="text-on-surface-variant">status pekerjaan</span></p>
+<p><span class="font-bold text-primary">Armada</span><br><span class="text-on-surface-variant">fleet aktif</span></p>
+</div>
+</div>
+</article>
+
+<article data-portfolio-card data-categories="dashboard platform business" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<div class="h-56 overflow-hidden">
+<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Dashboard Power BI reporting and control analytics portal preview" src="{{ asset('assets/poerbi.png') }}"/>
+</div>
+<div class="space-y-5 p-7">
+<div class="flex flex-wrap gap-2">
+<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Power BI</span>
+<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Reporting Dashboard</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Dashboard Power BI</h3>
+<p class="mt-3 text-body-md text-on-surface-variant">Portal reporting dan analytics untuk akses laporan, pemantauan performa, kontrol data internal, login aman, dan jejak audit terintegrasi.</p>
+</div>
+<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
+<p><span class="font-bold text-primary">Reporting</span><br><span class="text-on-surface-variant">laporan terpusat</span></p>
+<p><span class="font-bold text-primary">Analytics</span><br><span class="text-on-surface-variant">kontrol kinerja</span></p>
+</div>
+</div>
+</article>
+
+<article data-portfolio-card data-categories="dashboard business" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<div class="h-56 overflow-hidden">
+<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Showroom Mechanics sales otomotif system login preview for vehicle stock and offer management" src="{{ asset('assets/sales-otomotif.png') }}"/>
+</div>
+<div class="space-y-5 p-7">
+<div class="flex flex-wrap gap-2">
+<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Otomotif</span>
+<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Sales Dashboard</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Showroom Mechanics</h3>
+<p class="mt-3 text-body-md text-on-surface-variant">Sistem sales otomotif untuk mengelola stok kendaraan, harga jual, simulasi cicilan, penawaran digital, margin, dan follow-up customer.</p>
+</div>
+<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
+<p><span class="font-bold text-primary">Stok</span><br><span class="text-on-surface-variant">kendaraan</span></p>
+<p><span class="font-bold text-primary">Penawaran</span><br><span class="text-on-surface-variant">digital cepat</span></p>
+</div>
+</div>
+</article>
+
+<article data-portfolio-card data-categories="platform business" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<div class="h-56 overflow-hidden">
+<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Screening Mechanic assessment platform login preview with secure test and CMS admin" src="{{ asset('assets/screening-mechanic.png') }}"/>
+</div>
+<div class="space-y-5 p-7">
+<div class="flex flex-wrap gap-2">
+<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Assessment</span>
+<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Mechanic Test</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Screening Mechanic</h3>
+<p class="mt-3 text-body-md text-on-surface-variant">Platform assessment mechanic untuk login peserta dan admin, random soal, CMS admin, secure test, serta pemantauan hasil screening.</p>
+</div>
+<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
+<p><span class="font-bold text-primary">Random Soal</span><br><span class="text-on-surface-variant">assessment tertib</span></p>
+<p><span class="font-bold text-primary">CMS Admin</span><br><span class="text-on-surface-variant">kelola test</span></p>
+</div>
+</div>
+</article>
+
+<article data-portfolio-card data-categories="website platform" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<div class="h-56 overflow-hidden">
+<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Andalan Career recruitment landing page preview with mining team hero section" src="{{ asset('assets/career.png') }}"/>
+</div>
+<div class="space-y-5 p-7">
+<div class="flex flex-wrap gap-2">
+<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Career</span>
+<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Recruitment Portal</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Website Career Andalan</h3>
+<p class="mt-3 text-body-md text-on-surface-variant">Portal karier untuk menampilkan lowongan, pencarian posisi, pendaftaran kandidat, login pelamar, dan informasi FAQ dalam satu halaman yang rapi.</p>
+</div>
+<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
+<p><span class="font-bold text-primary">Lowongan</span><br><span class="text-on-surface-variant">posisi terbuka</span></p>
+<p><span class="font-bold text-primary">Daftar</span><br><span class="text-on-surface-variant">kandidat online</span></p>
+</div>
+</div>
+</article>
+
+<article data-portfolio-card data-categories="website" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
 <div class="h-56 overflow-hidden">
 <img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Website Klinik Gading Mitra Medika landing page preview" src="{{ asset('assets/gmm.png') }}"/>
 </div>
@@ -134,7 +248,7 @@ Lihat Karya
 </div>
 </article>
 
-<article data-portfolio-card data-categories="website ppdb" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<article data-portfolio-card data-categories="website platform" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
 <div class="h-56 overflow-hidden">
 <img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Website PPDB Al Azhar Syifa Budi Parahyangan landing page preview" src="{{ asset('assets/al azhar.png') }}"/>
 </div>
@@ -154,7 +268,7 @@ Lihat Karya
 </div>
 </article>
 
-<article data-portfolio-card data-categories="website wisata" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<article data-portfolio-card data-categories="website" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
 <div class="h-56 overflow-hidden">
 <img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Pasabar travel landing page preview for West Java destinations" src="{{ asset('assets/pasabar.png') }}"/>
 </div>
@@ -174,7 +288,7 @@ Lihat Karya
 </div>
 </article>
 
-<article data-portfolio-card data-categories="website ai" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<article data-portfolio-card data-categories="website" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
 <div class="h-56 overflow-hidden">
 <img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="All Role AI landing page preview with hero section" src="{{ asset('assets/all role ai.png') }}"/>
 </div>
@@ -194,7 +308,7 @@ Lihat Karya
 </div>
 </article>
 
-<article data-portfolio-card data-categories="hris dashboard" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<article data-portfolio-card data-categories="dashboard platform business" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
 <div class="h-56 overflow-hidden">
 <img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="HRIS dashboard admin preview with employee metrics and analytics charts" src="{{ asset('assets/hris.png') }}"/>
 </div>
@@ -214,7 +328,7 @@ Lihat Karya
 </div>
 </article>
 
-<article data-portfolio-card data-categories="sop dashboard" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<article data-portfolio-card data-categories="dashboard business" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
 <div class="h-56 overflow-hidden">
 <img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="SOP and CheckFlow dashboard preview for PT DIPSOL INDONESIA" src="{{ asset('assets/sop.png') }}"/>
 </div>
@@ -234,7 +348,7 @@ Lihat Karya
 </div>
 </article>
 
-<article data-portfolio-card data-categories="finance" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
+<article data-portfolio-card data-categories="platform business" class="overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2">
 <div class="h-56 overflow-hidden">
 <img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Moneyku finance application login page preview" src="{{ asset('assets/moneyku.png') }}"/>
 </div>
