@@ -410,6 +410,29 @@ Lihat Karya
 </div>
 </a>
 
+<a href="https://beige-nightingale-146684.hostingersite.com/" target="_blank" data-portfolio-card data-categories="platform dashboard business" class="block overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-all hover:-translate-y-2 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+<div class="h-56 overflow-hidden">
+<img class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Aplikasi Pajak platform login and operational dashboard preview" src="{{ asset('assets/pajak.png') }}"/>
+</div>
+<div class="space-y-5 p-7">
+<div class="flex flex-wrap gap-2">
+<span class="rounded-full bg-primary-fixed px-3 py-1 text-[12px] font-bold text-primary">Pajak</span>
+<span class="rounded-full bg-surface-container px-3 py-1 text-[12px] font-bold text-on-surface-variant">Tax Management</span>
+</div>
+<div class="group flex items-start justify-between gap-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors">Sistem Manajemen Pajak</h3>
+<p class="mt-3 text-body-md text-on-surface-variant">Sistem informasi untuk pengelolaan perpajakan, pencatatan transaksi, pelaporan, dan manajemen data wajib pajak yang terintegrasi.</p>
+</div>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors mt-1">open_in_new</span>
+</div>
+<div class="grid grid-cols-2 gap-3 border-t border-outline-variant/30 pt-5 text-sm">
+<p><span class="font-bold text-primary">Pelaporan</span><br><span class="text-on-surface-variant">data pajak</span></p>
+<p><span class="font-bold text-primary">Integrasi</span><br><span class="text-on-surface-variant">sistem terpusat</span></p>
+</div>
+</div>
+</a>
+
 {{--
 <article class="hidden overflow-hidden rounded-lg border border-outline-variant/30 bg-white shadow-[0px_4px_20px_rgba(0,0,0,0.05)] transition-transform hover:-translate-y-2 md:col-span-2 xl:col-span-3">
 <div class="grid lg:grid-cols-[1.15fr_0.85fr]">
